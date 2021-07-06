@@ -46,7 +46,8 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec alacritty
-
+# update using a keybinding
+bindsym $mod+u exec alacritty -e "upgrade"
 # start browser
 bindsym $mod2+b exec firefox
 
