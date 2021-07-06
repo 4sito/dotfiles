@@ -1,3 +1,3 @@
-2021/07/05-18:40:42.992 294e Reusing MANIFEST /home/asito/.config/heroic/Local Storage/leveldb/MANIFEST-000001
-2021/07/05-18:40:42.995 294e Recovering log #3
-2021/07/05-18:40:42.995 294e Reusing old log /home/asito/.config/heroic/Local Storage/leveldb/000003.log 
+2021/07/06-02:56:52.678 119d48 Reusing MANIFEST /home/asito/.config/heroic/Local Storage/leveldb/MANIFEST-000001
+2021/07/06-02:56:52.678 119d48 Recovering log #3
+2021/07/06-02:56:52.678 119d48 Reusing old log /home/asito/.config/heroic/Local Storage/leveldb/000003.log 

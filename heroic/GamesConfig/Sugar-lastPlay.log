@@ -2,12 +2,12 @@
 002c:fixme:winediag:LdrInitializeThunk wine-staging 6.12 is a testing version containing experimental patches.
 002c:fixme:winediag:LdrInitializeThunk Please mention your exact version when filing bug reports on winehq.org.
 MESA-INTEL: warning: Haswell Vulkan support is incomplete
-0108:fixme:toolhelp:CreateToolhelp32Snapshot Unimplemented: heap list snapshot
-0108:fixme:toolhelp:Heap32ListFirst : stub
-0108:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
-0108:err:winediag:check_version ntlm_auth was not found or is outdated. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
-0108:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
-0108:fixme:heap:RtlSetHeapInformation 00000000009A0000 0 00000000004EECA0 4 stub
+0104:fixme:toolhelp:CreateToolhelp32Snapshot Unimplemented: heap list snapshot
+0104:fixme:toolhelp:Heap32ListFirst : stub
+0104:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0104:err:winediag:check_version ntlm_auth was not found or is outdated. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+0104:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0104:fixme:heap:RtlSetHeapInformation 00000000009A0000 0 00000000004EECA0 4 stub
 info:  Game: RocketLeague.exe
 info:  DXVK: v1.9
 info:  Built-in extension providers:
@@ -134,11 +134,11 @@ info:    Memory Heap[0]:
 info:      Size: 1536 MiB
 info:      Flags: 0x1
 info:      Memory Type[0]: Property Flags = 0xf
-0108:fixme:nvapi:unimplemented_stub function 0xbe7692ec is unimplemented!
-0108:fixme:nvapi:unimplemented_stub function 0x6c2d048c is unimplemented!
-0164:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
-0164:fixme:wbemprox:client_security_SetBlanket 00000002419C2D60, 0000000000565090, 10, 0, (null), 3, 3, 0000000000000000, 0x00000000
-0164:fixme:wbemprox:client_security_Release 00000002419C2D60
+0104:fixme:nvapi:unimplemented_stub function 0xbe7692ec is unimplemented!
+0104:fixme:nvapi:unimplemented_stub function 0x6c2d048c is unimplemented!
+0160:fixme:ole:CoInitializeSecurity 0000000000000000, -1, 0000000000000000, 0000000000000000, 0, 3, 0000000000000000, 0, 0000000000000000 stub
+0160:fixme:wbemprox:client_security_SetBlanket 00000002419C2D60, 0000000000566630, 10, 0, (null), 3, 3, 0000000000000000, 0x00000000
+0160:fixme:wbemprox:client_security_Release 00000002419C2D60
 info:  Game: RocketLeague.exe
 info:  DXVK: v1.9
 info:  Built-in extension providers:
@@ -159,9 +159,9 @@ info:    Memory Heap[0]:
 info:      Size: 1536 MiB
 info:      Flags: 0x1
 info:      Memory Type[0]: Property Flags = 0xf
-0108:fixme:system:SystemParametersInfoW Unimplemented action: 59 (SPI_SETSTICKYKEYS)
-0108:fixme:system:SystemParametersInfoW Unimplemented action: 53 (SPI_SETTOGGLEKEYS)
-0108:fixme:system:SystemParametersInfoW Unimplemented action: 51 (SPI_SETFILTERKEYS)
+0104:fixme:system:SystemParametersInfoW Unimplemented action: 59 (SPI_SETSTICKYKEYS)
+0104:fixme:system:SystemParametersInfoW Unimplemented action: 53 (SPI_SETTOGGLEKEYS)
+0104:fixme:system:SystemParametersInfoW Unimplemented action: 51 (SPI_SETFILTERKEYS)
 info:  D3D11CoreCreateDevice: Probing D3D_FEATURE_LEVEL_11_0
 info:  D3D11CoreCreateDevice: Using feature level D3D_FEATURE_LEVEL_11_0
 info:  Device properties:
@@ -247,7 +247,7 @@ info:    Graphics : 0
 info:    Transfer : 0
 info:  DXVK: Read 335 valid state cache entries
 info:  DXVK: Using 2 compiler threads
-0058:fixme:mountmgr:harddisk_ioctl The DISK_PARTITION_INFO and DISK_DETECTION_INFO structures will not be filled
+0060:fixme:mountmgr:harddisk_ioctl The DISK_PARTITION_INFO and DISK_DETECTION_INFO structures will not be filled
 wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
 wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
 wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
@@ -279,8 +279,8 @@ info:    Image count:  3
 info:    Exclusive FS: 1
 info:  Setting display mode: 1920x1080@60
 warn:  DXGI: MakeWindowAssociation: Ignoring flags
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
 info:  Game: RocketLeague.exe
 info:  DXVK: v1.9
 info:  Built-in extension providers:
@@ -303,55 +303,55 @@ info:      Size: 1536 MiB
 info:      Flags: 0x1
 info:      Memory Type[0]: Property Flags = 0xf
 info:  Process set as DPI aware
-0108:fixme:imm:ImmReleaseContext (0000000000010064, 00000000005AB590): stub
+0104:fixme:imm:ImmReleaseContext (0000000000010064, 0000000000562D70): stub
 info:  Presenter: Actual swap chain properties:
 info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
 info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
 info:    Buffer size:  1920x1080
 info:    Image count:  3
 info:    Exclusive FS: 1
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
-0108:fixme:secur32:get_cipher_algid unknown algorithm 23
-0108:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
+0104:fixme:secur32:get_cipher_algid unknown algorithm 23
+0104:fixme:secur32:get_mac_algid unknown algorithm 200, cipher 23
 err:   DxvkMemoryAllocator: Memory allocation failed
-err:     Size:      3276800
+err:     Size:      6553600
 err:     Alignment: 4096
 err:     Mem flags: 0x1
 err:     Mem types: 0x1
-err:   Heap 0: 1228 MB allocated, 943 MB used, 1251 MB allocated (driver), 1536 MB budget (driver), 1536 MB total
+err:   Heap 0: 1224 MB allocated, 964 MB used, 1247 MB allocated (driver), 1536 MB budget (driver), 1536 MB total
 err:   DxvkMemoryAllocator: Memory allocation failed
-01b0:fixme:faultrep:ReportFault 00000000257DE9C0 0x0 stub
-007c:err:rpc:RpcAssoc_BindConnection receive failed with error 1726
+01ac:fixme:faultrep:ReportFault 00000000257AE9C0 0x0 stub
+0078:err:rpc:RpcAssoc_BindConnection receive failed with error 1726
