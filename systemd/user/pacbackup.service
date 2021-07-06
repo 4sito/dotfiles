@@ -1,0 +1,8 @@
+[Unit]
+Description="This service helps me backup the installed packages on my main machine"
+
+[Service]
+ExecStart=/home/asito/.config/packages.sh
+
+[Install]
+WantedBy=multi-user.target
