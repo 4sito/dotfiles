@@ -4,7 +4,6 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
-
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
@@ -33,7 +32,6 @@ exec --no-startup-id numlockx &
 exec --no-startup-id nm-applet
 
 # picom
-
 exec picom --config ~/.config/picom/picom.conf &
 
 # Use pactl to adjust volume in PulseAudio.
@@ -57,6 +55,11 @@ bindsym $mod2+f exec pcmanfm
 
 # kill focused window
 bindsym $mod+q kill
+
+#screenshot
+set $screen_p ~/Pictures/Screenshots
+bindsym $mod2+Shift+3 exec flameshot gui -p $screen_p
+bindsym $mod2+Shift+4 exec flameshot full -p $screen_p 
 
 # start dmenu (a program launcher)
 #bindsym $mod+Tab exec --no-startup-id dmenu_run
