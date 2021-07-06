@@ -50,10 +50,10 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty
 
 # start browser
-bindsym $mod+Shift+b exec firefox
+bindsym $mod2+b exec firefox
 
 # start file manager
-bindsym $mod+Shift+f exec pcmanfm
+bindsym $mod2+f exec pcmanfm
 
 # kill focused window
 bindsym $mod+q kill
