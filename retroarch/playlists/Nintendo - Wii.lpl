@@ -1,0 +1,19 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/asito/HDD/games/roms/wii/New Super Mario Bros Wii [SMNE01]/New Super Mario Bros Wii [SMNE01].wbfs",
+      "label": "New Super Mario Bros. Wii (USA)",
+      "core_path": "/usr/lib/libretro/dolphin_libretro.so",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Wii.lpl"
+    }
+  ]
+}

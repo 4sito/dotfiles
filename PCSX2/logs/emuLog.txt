@@ -1,0 +1,9 @@
+
+Loading plugins from /usr/lib/PCSX2...
+	Bound   GS: libGSdx-AVX2.so [GSdx 64-bit (GCC 11.1.0 AVX/AVX) 1.2.0]
+Plugins loaded successfully.
+
+Initializing plugins...
+	Init GS
+Plugins initialized successfully.
+
