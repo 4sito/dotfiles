@@ -26,8 +26,8 @@
     {
       "path": "/home/asito/HDD/games/roms/psp/2403 - God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00).iso",
       "label": "God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
       "crc32": "B82D36CB|crc",
       "db_name": "Sony - PlayStation Portable.lpl"
     },

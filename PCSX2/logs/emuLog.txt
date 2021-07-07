@@ -7,3 +7,244 @@ Initializing plugins...
 	Init GS
 Plugins initialized successfully.
 
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: USA     v01.60(07/02/2002)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
+Shutting down plugins...
+
+PCSX2 1.7.0-20210620100031 
+Savestate version: 0x9a1f0000
+
+Host Machine Init:
+	Operating System =  Linux 5.12.14-arch1-1 x86_64
+	Physical RAM     =  7860 MB
+	CPU name         =  Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz
+	Vendor/Model     =  GenuineIntel (stepping 03)
+	CPU speed        =  3.588 ghz (4 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 7fdafbbf
+	x86EFlags        =  2c100800
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+	Pcsx2 was compiled as 64-bits.
+
+Plugins shutdown successfully.
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+
+Loading plugins from /usr/lib/PCSX2...
+	Bound   GS: libGSdx-AVX2.so [GSdx 64-bit (GCC 11.1.0 AVX/AVX) 1.2.0]
+Plugins loaded successfully.
+
+[GameDB] 10372 games on record (loaded in 360ms)
+
+(PCSX2:37308): Gtk-WARNING **: 02:18:30.861: Negative content height -1 (allocation 1, extents 1x1) while allocating gadget (node trough, owner GtkScale)
+	HotSwapping to new ISO src image!
+	HotSwapping to new ISO src image!
+HLE Notice: ELF does not have a path.
+
+Initializing plugins...
+	Init GS
+Plugins initialized successfully.
+
+Patches: No CRC found, using 00000000 instead.
+isoFile open ok: /home/asito/HDD/games/roms/ps2/DragonBall Z - Budokai Tenkaichi 3 (USA) (En,Ja).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (997458 sectors)
+Opening plugins...
+	Opening GS
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: option value of option mesa_glthread ignored.
+McdSlot 0 [File]: /home/asito/.config/PCSX2/memcards/Mcd001.ps2
+(FileMcd) Creating new 8MB memory card: /home/asito/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/asito/.config/PCSX2/memcards/Mcd002.ps2
+(FileMcd) Creating new 8MB memory card: /home/asito/.config/PCSX2/memcards/Mcd002.ps2
+Plugins opened successfully.
+Request SDL audio driver: pulseaudio
+OnePAD: failed to load ini /home/asito/.config/PCSX2/inis/PAD.ini
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000008040000
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000008040000
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000008040000
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000008040000
+EGL: Supported extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_MESA_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+OpenGL information. GPU: Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2). Vendor: Intel Open Source Technology Center. Driver: (Core Profile) Mesa 21.1.3
+INFO: GL_ARB_sparse_texture is NOT SUPPORTED
+INFO: GL_ARB_sparse_texture2 is NOT SUPPORTED
+INFO: GL_ARB_gpu_shader5 is available
+INFO: GL_ARB_shader_image_load_store is available
+INFO: GL_ARB_compute_shader is available
+INFO: GL_ARB_shader_storage_buffer_object is available
+INFO: GL_ARB_texture_view is available
+INFO: GL_ARB_vertex_attrib_binding is available
+INFO: GL_ARB_clear_texture is available
+INFO: GL_ARB_multi_bind is available
+INFO: GL_ARB_direct_state_access is available
+INFO: GL_ARB_texture_barrier is available
+INFO: GL_ARB_get_texture_sub_image is available
+
+Current Renderer: OpenGL
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+GSdx Lookup CRC:00000000
+GSdx Lookup CRC:00000000
+48000 SampleRate: 
+Opened SDL audio driver: pulseaudio
+EE/iR5900-32 Recompiler Reset
+	Bios Found: Europe  v01.60(04/10/2001)  Console
+	BIOS r module not found, skipping...
+	BIOS r module not found, skipping...
+	BIOS e module not found, skipping...
+# Initialize memory (rev:3.63, ctm:196Mhz, cpuclk:147Mhz detected)
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000008040000
+NVM File Not Found, creating substitute...
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2001-1004, IOP info (CPUID=1f, CACH_CONFIG=0, 2MB, IOP mode)
+ <20011004-175839,ROMconf,PS20160EC20011004.bin:11520>
+# Total accessable memory size: 32 MB (B:2:8:0) (363:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+PAD: controller (Xbox One S Controller) detected with rumble support, GUID:030000005e040000ea02000008040000
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Jul  4 2001 16:03:45
+  CPUID=2e20, BoardID=0, ROMGEN=2001-1004, 32M
+
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_216.78;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SLUS_216.78;1) Game CRC = 0x428113C2, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_216.78;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLUS_216.78;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SLUS_216.78;1
+1 00100000 001c33c0 .............................
+2 002c3400 0003bd6e .....
+Loaded, cdrom0:¥SLUS_216.78;1
+start address 0x100008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Elf entry point @ 0x00100008 about to get recompiled. Load patches first.
+[GameDB] Searching for 'slus-21678' in GameDB
+[GameDB] Found 'slus-21678' in GameDB
+[GameDB] Searching for patch with CRC '428113c2'
+[GameDB] No CRC-specific patch or default patch found
+[GameDB] Searching for 'slus-21678' in GameDB
+[GameDB] Found 'slus-21678' in GameDB
+[GameDB] Searching for patch with CRC '428113c2'
+[GameDB] No CRC-specific patch or default patch found
+Get Reboot Request From EE
+ROM directory not found
+GSdx Lookup CRC:428113C2
+GSdx Lookup CRC:428113C2
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+MEC File Not Found, creating substitute...
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadmodule: fname cdrom0:¥IRX¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥IRX¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 26, ret 2
+loadmodule: fname cdrom0:¥IRX¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 27, ret 2
+loadmodule: fname cdrom0:¥IRX¥DBCMAN.IRX;1 args 0 arg 
+loadmodule: id 28, ret 0
+loadmodule: fname cdrom0:¥IRX¥SIO2D.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥IRX¥DS2U_D.IRX;1 args 0 arg 
+loadmodule: id 30, ret 0
+loadmodule: fname cdrom0:¥IRX¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 31, ret 0
+loadmodule: fname cdrom0:¥IRX¥SDRDRV.IRX;1 args 0 arg 
+SDR driver version 4.0.1 (C) SCEI
+ Exit rsd_main 
+loadmodule: id 32, ret 2
+loadmodule: fname cdrom0:¥IRX¥MODHSYN.IRX;1 args 0 arg 
+loadmodule: id 33, ret 0
+loadmodule: fname cdrom0:¥IRX¥MODSESQ2.IRX;1 args 0 arg 
+loadmodule: id 34, ret 0
+loadmodule: fname cdrom0:¥IRX¥CDVDSTM.IRX;1 args 0 arg 
+loadmodule: id 35, ret 2
+loadmodule: fname cdrom0:¥IRX¥SOUNDS.IRX;1 args 0 arg 
+loadmodule: id 36, ret 0
+loadmodule: fname cdrom0:¥IRX¥CRI_ADXI.IRX;1 args 0 arg 
+CRI ADX Driver Ver.9.71(Dec 13 2005 21:36:53)
+CRI ADX Driver : Main Thread Priority = 39
+CRI ADX Driver : PSM Thread Priority  = 39
+CRI ADX Driver : DTX Thread Priority  = 48
+CRI ADX Driver : SPU CORE Number = 0
+CRI ADX Driver : sceSdInit(SD_INIT_COLD) call.
+loadmodule: id 37, ret 2
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59.94 fps
+SDR callback thread created
+[SESQ] : SesqInit()       : 
+[SESQ] : SesqSetVolume()  : [port_bit=ff vol=127]
+DVCI: "PZS3US0.AFS" found.
+DVCI: "PZS3US1.AFS" found.
+DVCI: "PZS3US2.AFS" found.
+DVCI: "ZS3USOP.PSS" found.
+DVCI: "ZS3USOP_PAL.PSS" Not found.
+DVCI: "ZS3USOP.ADX" found.
+DVCI: "ZS3USED.PSS" found.
+DVCI: "ZS3USED_PAL.PSS" Not found.
+DVCI: Total 6 files.
+DVCI: Warning, Can't load all cache file.
+PS2RNA: sceSifAllocIopHeap(266304) ret=0x00174600
+PS2RNA: sceSifAllocIopHeap(2256) ret=0x001b5700
+PS2RNA: sceSifAllocIopHeap(16448) ret=0x001b6000
+[SESQ] : SesqSet()        : [port_num=0 spu_addr=5010 hd_addr=1ba100 sq_addr=1811456]
+[SESQ] : SesqPlay()       : [port_num=0 sesq=  4, loop=0, vol= 108, pan= 64, pitch=   0 cpu_id=       0]
+[SESQ] : SesqUpdate()     : se end. [port_num=0, sesq=  4, cpu_id=       0 iop_id=f8000000]
+[SESQ] : SesqPlay()       : [port_num=0 sesq=  5, loop=0, vol= 108, pan= 64, pitch=   0 cpu_id=       1]
+[SESQ] : SesqUpdate()     : se end. [port_num=0, sesq=  5, cpu_id=       1 iop_id=f8000001]
