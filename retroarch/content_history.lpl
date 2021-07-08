@@ -8,6 +8,22 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "/home/asito/HDD/games/roms/psp/2040 - Tekken 6 (USA) (En,Fr,De,Es,It,Ru).iso",
+      "label": "Tekken 6 (USA) (En,Fr,De,Es,It,Ru)",
+      "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "AE9ABFB0|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/psp/0712 - Grand Theft Auto - Vice City Stories (USA) (v1.03).iso",
+      "label": "Grand Theft Auto - Vice City Stories (USA) (v1.03)",
+      "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "F705A610|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
       "path": "/home/asito/HDD/games/roms/psp/2403 - God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00).iso",
       "label": "God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00)",
       "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
