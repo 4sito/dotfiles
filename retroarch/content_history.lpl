@@ -8,6 +8,14 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "/home/asito/Mario Kart Wii (USA) (En,Fr,Es).iso",
+      "label": "",
+      "core_path": "/usr/lib/libretro/dolphin_libretro.so",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
       "path": "/home/asito/HDD/games/roms/psp/2040 - Tekken 6 (USA) (En,Fr,De,Es,It,Ru).iso",
       "label": "Tekken 6 (USA) (En,Fr,De,Es,It,Ru)",
       "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
