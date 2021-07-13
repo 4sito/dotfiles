@@ -8,6 +8,14 @@
   "sort_mode": 0,
   "items": [
     {
+      "path": "/home/asito/HDD/games/roms/psx/WRC - FIA World Rally Championship(1).7z#WRC - FIA World Rally Championship.iso",
+      "label": "WRC - FIA World Rally Championship (USA) (v1.01)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A8900122|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
       "path": "/home/asito/HDD/games/roms/psp/Crash of the Titans.iso",
       "label": "Crash of the Titans (USA) (v1.01)",
       "core_path": "DETECT",

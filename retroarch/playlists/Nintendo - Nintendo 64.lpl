@@ -1,0 +1,147 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Yoshi's Story (U) [!].z64",
+      "label": "Yoshi's Story (USA) (En,Ja)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A1453E0D|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Super Smash Bros. (U) [!].z64",
+      "label": "Super Smash Bros. (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EB97929E|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Super Mario 64 (U) [!].z64",
+      "label": "Super Mario 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3CE60709|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Star Fox 64 (U) (V1.1) [!].z64",
+      "label": "Star Fox 64 (USA) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B1B5FC46|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Space Invaders (U) [!].z64",
+      "label": "Space Invaders (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "60F7FF8E|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Quake II (U) [!].z64",
+      "label": "Quake II (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E6B34387|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Pokemon Stadium (E) (V1.1) [!].z64",
+      "label": "Pokemon Stadium (Europe) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DA889668|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Paper Mario (U) [!].z64",
+      "label": "Paper Mario (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A7F5CD7E|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Mortal Kombat 4 (U) [!].z64",
+      "label": "Mortal Kombat 4 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B7F46516|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Mario Kart 64 (E) (V1.1) [!].z64",
+      "label": "Mario Kart 64 (Europe) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0248F6C3|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Legend of Zelda, The - Ocarina of Time (U) (V1.2) [!].z64",
+      "label": "Legend of Zelda, The - Ocarina of Time (USA) (Rev 2)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "32120C23|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Legend of Zelda, The - Majora's Mask (U) [!].z64",
+      "label": "Legend of Zelda, The - Majora's Mask (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B428D8A7|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/GoldenEye 007 (U) [!].z64",
+      "label": "GoldenEye 007 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B6330846|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Duke Nukem 64 (U) [!].z64",
+      "label": "Duke Nukem 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DBFD5A53|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Duke Nukem - ZER0 H0UR (U) [!].z64",
+      "label": "Duke Nukem - Zero Hour (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9A3258D7|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Doom 64 (U) [!].z64",
+      "label": "Doom 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5CC1ADE6|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/n64/Donkey Kong 64 (U) [!].z64",
+      "label": "Donkey Kong 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D44B4FC6|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    }
+  ]
+}
