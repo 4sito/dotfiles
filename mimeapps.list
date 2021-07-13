@@ -1,3 +1,4 @@
 [Added Associations]
 font/ttf=pcmanfm.desktop;
 application/x-yaml=vim.desktop;
+image/png=org.gnome.Evince.desktop;

@@ -1,3 +1,4 @@
 #! /bin/zsh
 
-pacman -Q | awk '{print $1}' > /home/asito/.config/packages
+pacman -Qeqn | awk '{print $1}' > /home/asito/.config/pkgs
+pacman -Qeqm | awk '{print $1}' > /home/asito/.config/forpkgs
