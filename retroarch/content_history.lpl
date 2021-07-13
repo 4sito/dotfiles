@@ -16,6 +16,38 @@
       "db_name": ""
     },
     {
+      "path": "/home/asito/HDD/games/roms/psp/2040 - Tekken 6 (USA) (En,Fr,De,Es,It,Ru).iso",
+      "label": "Tekken 6 (USA) (En,Fr,De,Es,It,Ru)",
+      "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "AE9ABFB0|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/psp/2403 - God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00).iso",
+      "label": "God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00)",
+      "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "B82D36CB|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/psx/Mortal Kombat Trilogy/Mortal Kombat Trilogy (USA) (v1.1).cue",
+      "label": "Mortal Kombat Trilogy (USA) (Rev 1)",
+      "core_path": "/usr/lib/libretro/mednafen_psx_hw_libretro.so",
+      "core_name": "Sony - PlayStation (Beetle PSX HW)",
+      "crc32": "A3E7F67A|crc",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/snes/Chrono Trigger (USA).sfc",
+      "label": "Chrono Trigger (USA)",
+      "core_path": "/usr/lib/libretro/bsnes2014_accuracy_libretro.so",
+      "core_name": "Nintendo - SNES / SFC (bsnes 2014 Accuracy)",
+      "crc32": "2D206BF7|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/home/asito/HDD/games/roms/ps2/Crash of the Titans (USA).iso",
       "label": "",
       "core_path": "/usr/lib/libretro/play_libretro.so",
@@ -40,27 +72,11 @@
       "db_name": ""
     },
     {
-      "path": "/home/asito/HDD/games/roms/psp/2040 - Tekken 6 (USA) (En,Fr,De,Es,It,Ru).iso",
-      "label": "Tekken 6 (USA) (En,Fr,De,Es,It,Ru)",
-      "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
-      "core_name": "Sony - PlayStation Portable (PPSSPP)",
-      "crc32": "AE9ABFB0|crc",
-      "db_name": "Sony - PlayStation Portable.lpl"
-    },
-    {
       "path": "/home/asito/HDD/games/roms/psp/0712 - Grand Theft Auto - Vice City Stories (USA) (v1.03).iso",
       "label": "Grand Theft Auto - Vice City Stories (USA) (v1.03)",
       "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
       "core_name": "Sony - PlayStation Portable (PPSSPP)",
       "crc32": "F705A610|crc",
-      "db_name": "Sony - PlayStation Portable.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/psp/2403 - God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00).iso",
-      "label": "God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00)",
-      "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
-      "core_name": "Sony - PlayStation Portable (PPSSPP)",
-      "crc32": "B82D36CB|crc",
       "db_name": "Sony - PlayStation Portable.lpl"
     },
     {
