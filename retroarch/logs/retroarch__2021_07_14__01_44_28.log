@@ -1,0 +1,101 @@
+[INFO] RetroArch 1.9.6 (Git 4a6dc36b1c)
+[INFO] === Build =======================================
+[INFO] CPU Model Name: Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz
+[INFO] Capabilities:  MMX MMXEXT SSE SSE2 SSE3 SSSE3 SSE4 SSE4.2 AES AVX AVX2
+[INFO] Built: Jul  5 2021
+[INFO] Version: 1.9.6
+[INFO] Git: 4a6dc36b1c
+[INFO] =================================================
+[INFO] [Input]: Found input driver: "x".
+[INFO] [Environ]: SET_PIXEL_FORMAT: RGB565.
+[INFO] Version of libretro API: 1
+[INFO] Compiled against API: 1
+[INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
+[INFO] [Video]: Video @ 960x720
+[INFO] [EGL] Found EGL client version >= 1.5, trying eglGetPlatformDisplay
+[INFO] [EGL]: EGL version: 1.4
+[INFO] [GL]: Found GL context: wayland
+[INFO] [GL]: Detecting screen resolution 0x0.
+[INFO] [EGL]: Current context: 0x55a2c74403c0.
+[INFO] [GL]: Vendor: Intel Open Source Technology Center, Renderer: Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2).
+[INFO] [GL]: Version: 3.0 Mesa 21.1.4.
+[INFO] [GL]: Using resolution 960x720
+[INFO] [GL]: Default shader backend found: glsl.
+[INFO] [Shader driver]: Using GLSL shader backend.
+[INFO] [GLSL]: Checking GLSL shader support ...
+[WARN] [GL]: Stock GLSL shaders will be used.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] Setting up menu pipeline shaders for XMB ... 
+[INFO] [GLSL]: Compiling ribbon shader..
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Compiling simple ribbon shader..
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Compiling snow shader..
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Compiling modern snow shader..
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Compiling bokeh shader..
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GLSL]: Compiling snowflake shader..
+[INFO] [GLSL]: Found GLSL vertex shader.
+[INFO] [GLSL]: Found GLSL fragment shader.
+[INFO] [GLSL]: Linking GLSL program.
+[INFO] [GL]: Using 4 textures.
+[INFO] [GL]: Loaded 1 program(s).
+[INFO] [GL]: Using GL_RGB565 for texture uploads.
+[INFO] [udev]: Pad #0 (/dev/input/event15) supports force feedback.
+[INFO] [udev]: Pad #0 (/dev/input/event15) supports 16 force feedback effects.
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Wayland]: Enabling idle inhibitor
+[INFO] [Video]: Found display server: null
+[INFO] [PulseAudio]: Requested 24576 bytes buffer, got 18432.
+[INFO] [Display]: Found display driver: "gl".
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Core Info] Failed to write to core info cache file: /usr/share/libretro/info/core_info.cache
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [SRAM]: SRAM will not be saved.
+[INFO] [Playlist]: Loading history file: [/home/asito/.config/retroarch/content_history.lpl].
+[INFO] [Playlist]: Loading history file: [/home/asito/.config/retroarch/content_music_history.lpl].
+[INFO] [Playlist]: Loading history file: [/home/asito/.config/retroarch/content_video_history.lpl].
+[INFO] [Playlist]: Loading history file: [/home/asito/.config/retroarch/content_image_history.lpl].
+[INFO] [Playlist]: Loading favorites file: [/home/asito/.config/retroarch/content_favorites.lpl].
+[INFO] [PulseAudio]: Pausing.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.

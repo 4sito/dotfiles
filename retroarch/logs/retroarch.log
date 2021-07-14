@@ -11,39 +11,39 @@
 [INFO] Version of libretro API: 1
 [INFO] Compiled against API: 1
 [INFO] [Audio]: Set audio input rate to: 48000.00 Hz.
-[INFO] [Video]: Video @ fullscreen
+[INFO] [Video]: Video @ 960x720
 [INFO] [EGL] Found EGL client version >= 1.5, trying eglGetPlatformDisplay
 [INFO] [EGL]: EGL version: 1.4
-[INFO] [GL1]: Found GL1 context: wayland
-[INFO] [GL1]: Detecting screen resolution 0x0.
-[INFO] [EGL]: Current context: 0x5591efb28d60.
-[INFO] [GL1]: Using resolution 640x480
-[INFO] [GL1]: Vendor: Intel Open Source Technology Center, Renderer: Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2).
-[INFO] [GL1]: Version: 3.0 Mesa 21.1.4.
-[INFO] [GL1]: Extensions: GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_t[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [GLCore]: Found GL context: wayland
+[INFO] [GLCore]: Detecting screen resolution 0x0.
+[INFO] [EGL]: Current context: 0x563f8ebe30e0.
+[INFO] [GLCore]: Vendor: Intel Open Source Technology Center, Renderer: Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2).
+[INFO] [GLCore]: Version: 4.5 (Core Profile) Mesa 21.1.4.
+[INFO] [GLCore]: Using resolution 960x720
+[INFO] [udev]: Pad #0 (/dev/input/event2) supports force feedback.
+[INFO] [udev]: Pad #0 (/dev/input/event2) supports 16 force feedback effects.
+[INFO] [Joypad]: Found joypad driver: "udev".
+[INFO] [GLCore]: Loading stock shader.
+[INFO] [slang]: Building pass #0 (N/A)
+[INFO] [GLCore]: Not using frame history.
+[INFO] [GLCore]: Not using framebuffer feedback.
 [INFO] [Font]: Using font rendering backend: freetype.
-[INFO] [Font]: Using font driver GL1
-[INFO] [GL1]: Init complete.
+[INFO] [Wayland]: Enabling idle inhibitor
 [INFO] [Video]: Found display server: null
 [INFO] [PulseAudio]: Requested 24576 bytes buffer, got 18432.
-[INFO] [Display]: Found display driver: "gl1".
+[INFO] [Display]: Found display driver: "glcore".
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
 [ERROR] [Core Info] Failed to write to core info cache file: /usr/share/libretro/info/core_info.cache
 [INFO] [Font]: Using font rendering backend: freetype.
-[INFO] [Font]: Using font driver GL1
 [INFO] [Font]: Using font rendering backend: freetype.
-[INFO] [Font]: Using font driver GL1
 [INFO] [SRAM]: SRAM will not be saved.
 [INFO] [Playlist]: Loading history file: [/home/asito/.config/retroarch/content_history.lpl].
 [INFO] [Playlist]: Loading history file: [/home/asito/.config/retroarch/content_music_history.lpl].
@@ -54,35 +54,1063 @@
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
 [INFO] [Font]: Using font rendering backend: freetype.
-[INFO] [Font]: Using font driver GL1
 [INFO] [Font]: Using font rendering backend: freetype.
-[INFO] [Font]: Using font driver GL1
-[ERROR] Failed to open libretro core: "/usr/lib/libretro/dolphin_libretro.so"
-[ERROR] Error(s): /usr/lib/libretro/dolphin_libretro.so: undefined symbol: _ZN3fmt2v76detail10vformat_toIcEEvRNS1_6bufferIT_EENS0_17basic_string_viewIS4_EENS0_17basic_format_argsINS0_20basic_format_contextINSt11conditionalIXsr3std7is_sameINS0_13type_identityIS4_E[INFO] [udev]: Pad #0 (/dev/input/event15) supports force feedback.
-[INFO] [udev]: Pad #0 (/dev/input/event15) supports 16 force feedback effects.
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
 [ERROR] [Font]: Failed to create rendering backend: freetype.
 [ERROR] [Font]: Failed to create rendering backend: stb-unicode.
 [INFO] [Font]: Using font rendering backend: bitmap.
-[INFO] [Font]: Using font driver GL1
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
 [INFO] [Font]: Using font rendering backend: freetype.
-[INFO] [Font]: Using font driver GL1
 [INFO] [Font]: Using font rendering backend: freetype.
-[INFO] [Font]: Using font driver GL1
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[ERROR] [Font]: Failed to create rendering backend: freetype.
+[ERROR] [Font]: Failed to create rendering backend: stb-unicode.
+[INFO] [Font]: Using font rendering backend: bitmap.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [Font]: Using font rendering backend: freetype.
+[INFO] [PulseAudio]: Unpausing.
+[INFO] [Config]: Saved new config to "/home/asito/.config/retroarch/retroarch.cfg".
+[INFO] [Core]: Content ran for a total of: 00 hours, 00 minutes, 00 seconds.
+[INFO] [PulseAudio]: Pausing.
+[INFO] [Core]: Unloading core..
+[INFO] [Core]: Unloading core symbols..
+[INFO] [Video]: Does not have enough samples for monitor refresh rate estimation. Requires to run for at least 4096 frames.
+[INFO] [Video]: Does not have enough samples for monitor refresh rate estimation. Requires to run for at least 4096 frames.

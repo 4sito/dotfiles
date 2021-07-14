@@ -51,8 +51,8 @@
     {
       "path": "/home/asito/HDD/games/roms/psx/WRC - FIA World Rally Championship(1).7z#WRC - FIA World Rally Championship.iso",
       "label": "WRC - FIA World Rally Championship (USA) (v1.01)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/usr/lib/libretro/ppsspp_libretro.so",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
       "crc32": "A8900122|crc",
       "db_name": "Sony - PlayStation Portable.lpl"
     },

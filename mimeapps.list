@@ -2,3 +2,6 @@
 font/ttf=pcmanfm.desktop;
 application/x-yaml=vim.desktop;
 image/png=org.gnome.Evince.desktop;
+
+[Default Applications]
+x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop

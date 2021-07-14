@@ -8,6 +8,22 @@
   "sort_mode": 2,
   "items": [
     {
+      "path": "/home/asito/HDD/games/roms/wii/Mario Kart Wii (USA) (En,Fr,Es).iso",
+      "label": "Mario Kart Wii (USA)",
+      "core_path": "/usr/lib/libretro/dolphin_libretro.so",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/wii/New Super Mario Bros Wii [SMNE01]/New Super Mario Bros Wii [SMNE01].wbfs",
+      "label": "New Super Mario Bros. Wii (USA)",
+      "core_path": "/usr/lib/libretro/dolphin_libretro.so",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
       "path": "/home/asito/HDD/games/roms/ps2/Dragon Ball Z - Budokai Tenkaichi 2 (USA) (En,Ja).iso",
       "label": "",
       "core_path": "/usr/lib/libretro/play_libretro.so",
@@ -102,14 +118,6 @@
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
       "crc32": "00000000|crc",
       "db_name": "Nintendo - GameCube.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/wii/New Super Mario Bros Wii [SMNE01]/New Super Mario Bros Wii [SMNE01].wbfs",
-      "label": "New Super Mario Bros. Wii (USA)",
-      "core_path": "/usr/lib/libretro/dolphin_libretro.so",
-      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
-      "crc32": "00000000|crc",
-      "db_name": "Nintendo - Wii.lpl"
     }
   ]
 }

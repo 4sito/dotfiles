@@ -1,0 +1,107 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Super Mario Advance 4 - Super Mario Bros. 3 (U) (V1.1).gba",
+      "label": "Super Mario Advance 4 - Super Mario Bros. 3 (USA, Australia) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "88DAB27F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Super Mario Advance 2 - Super Mario World (U) [!].gba",
+      "label": "Super Mario Advance 2 - Super Mario World (USA, Australia)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5206880A|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/saph.gba",
+      "label": "Pokemon - Sapphire Version (USA, Europe) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "BAFEDAE5|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/ruby.gba",
+      "label": "Pokemon - Ruby Version (USA, Europe) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "61641576|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Pokemon - Leaf Green Version (U) (V1.1).gba",
+      "label": "Pokemon - LeafGreen Version (USA, Europe) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DAFFECEC|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Pokemon - Fire Red Version (U) (V1.1).gba",
+      "label": "Pokemon - FireRed Version (USA, Europe) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "84EE4776|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Pokemon - Emerald Version (U).gba",
+      "label": "Pokemon - Emerald Version (USA, Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1F1C08FB|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Metal Slug Advance (U).gba",
+      "label": "Metal Slug Advance (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "09980880|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Mario Kart Super Circuit (U) [!].gba",
+      "label": "Mario Kart - Super Circuit (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "ED316E37|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Legend of Zelda, The - The Minish Cap (U).gba",
+      "label": "Legend of Zelda, The - The Minish Cap (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "ABCEBBB1|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/Kirby - Nightmare in Dreamland (U) [!].gba",
+      "label": "Kirby - Nightmare in Dream Land (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "20EF3F64|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gba/1007 - Spirit - Der Wilde Mustang (G)(Patientz).gba",
+      "label": "Spirit - Der Wilde Mustang - Auf der Suche nach Homeland (Germany)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4785EEE0|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    }
+  ]
+}
