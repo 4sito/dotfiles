@@ -1,0 +1,59 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gbc/Super Mario Bros. Deluxe (U) (V1.1) [C][!].gbc",
+      "label": "Super Mario Bros. Deluxe (USA, Europe) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "90AB047B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gbc/Pokemon - Silver Version (UE) [C][!].gbc",
+      "label": "Pokemon - Silver Version (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8AD48636|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gbc/Pokemon - Gold Version (UE) [C][!].gbc",
+      "label": "Pokemon - Gold Version (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6BDE3C3E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gbc/Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc",
+      "label": "Pokemon - Crystal Version (USA, Europe) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3358E30A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gbc/Legend of Zelda, The - Oracle of Ages (U) [C][!].gbc",
+      "label": "Legend of Zelda, The - Oracle of Ages (USA, Australia)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3800A387|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/gbx/gbc/Grand Theft Auto 2 (U) [C][!].gbc",
+      "label": "Grand Theft Auto 2 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "68610203|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    }
+  ]
+}

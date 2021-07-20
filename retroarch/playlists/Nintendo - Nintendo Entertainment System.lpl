@@ -1,0 +1,27 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/home/asito/HDD/games/roms/nes/Super Mario Bros. (World).nes",
+      "label": "Super Mario Bros. (World)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3337EC46|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/nes/Kirby's Adventure (E).nes",
+      "label": "Kirby's Adventure (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EC2328B3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    }
+  ]
+}
