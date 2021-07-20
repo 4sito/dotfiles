@@ -36,16 +36,24 @@ set $right l
 
 # Your preferred terminal emulator
 set $term alacritty
+
+
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 set $menu "rofi -modi drun#run#ssh -show drun"
+
 # set browser
 set $brow firefox
+
 # set file manager
 set $file pcmanfm
+
 # set wallpaper path
 set $wallpaper ~/Pictures/blue.jpg
+
+# set network mangaer of choice
+set $network networkmanager_dmenu
 # set screenshot path
 set $screen_p ~/Pictures/Screenshots
 
@@ -129,7 +137,10 @@ input "type:keyboard" {
 
     # Start File manager
     bindsym $mod2+e exec $file
-    
+   
+    # Network manager 
+    bindsym $mod2+d exec $network 
+
     # Screenshot
     bindsym $mod2+$mod+3 exec grim $screen_p/$(date +%Y-%m-%d_%H-%m-%s).png
     bindsym $mod2+$mod+4 exec grim  -g "$(slurp)" $screen_p/$(date +%Y-%m-%d_%H-%m-%s).png
