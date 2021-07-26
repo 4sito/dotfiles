@@ -320,7 +320,7 @@ gaps inner 10
 gaps outer 5
 
 # opacity
-for_window [class="^.*"] opacity set 0.75
+for_window [class="^.*"] opacity set 0.85
 
 # enable xwayland only if an app requires it (discord)
 xwayland enable
