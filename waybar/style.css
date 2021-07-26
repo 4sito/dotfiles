@@ -77,7 +77,7 @@ window#waybar.chromium {
 #tray,
 #mode,
 #idle_inhibitor,
-#power,
+#custom,
 #mpd {
     padding: 0 10px;
     margin: 6px 3px;
@@ -101,8 +101,9 @@ window#waybar.chromium {
     margin-right: 0;
 }
 
+
 #clock {
-    background-color: #055a8c;
+    background-color: @background-color;
 }
 
 #battery {
@@ -139,6 +140,10 @@ label:focus {
 #cpu {
     background-color: #298fca;
     color: #000000;
+}
+
+#custom {
+	background-color: #298fca;
 }
 
 #memory {
