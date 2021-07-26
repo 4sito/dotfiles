@@ -6,6 +6,7 @@ configuration {
     font:                           "Font Awesome 17";
 }
 
+
 window {
     height:                         370px; // 1440 - 2*16
     width:                          100px;
