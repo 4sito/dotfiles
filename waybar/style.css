@@ -41,18 +41,17 @@ window#waybar.chromium {
     background-color: transparent;
     color: #ffffff;
     /* Use box-shadow instead of border so the text isn't offset */
-    box-shadow: inset 0 -3px transparent;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 -3px #ffffff;
+    background: transparent;
+    color: #000000;
 }
 
 #workspaces button.focused {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #ffffff;
+    background-color: transparent;
+    color: #000000;
 }
 
 #workspaces button.urgent {
@@ -77,7 +76,7 @@ window#waybar.chromium {
 #tray,
 #mode,
 #idle_inhibitor,
-#custom,
+#custom-power,
 #mpd {
     padding: 0 10px;
     margin: 6px 3px;
@@ -142,8 +141,8 @@ label:focus {
     color: #000000;
 }
 
-#custom {
-	background-color: #298fca;
+#custom-power {
+	background-color: transparent;
 }
 
 #memory {
@@ -163,7 +162,7 @@ label:focus {
 }
 
 #network.disconnected {
-    background-color: #5ba4cf;
+    background-color: #8b0000;
 }
 
 #pulseaudio {

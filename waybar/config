@@ -1,12 +1,12 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 30, // Waybar height (to be removed for auto height)
+    "height": 35, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     // Choose the order of the modules
-    "modules-left": [ "sway/workspaces", "custom/power"],
+    "modules-left": [ "custom/power", "sway/workspaces" ],
     "modules-center": ["sway/window"],
-    "modules-right": ["idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "sway/language", "clock" ],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "sway/language", "clock" ],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -146,6 +146,6 @@
     },
     "custom/power": {
     "format": "⏻",
-    "on-click": "swaynag -t warning -m 'Power Menu Options' -b 'Logout' 'swaymsg exit' -b 'Restart' 'shutdown -r now' -b 'Shutdown'  'shutdown -h now' --background=#005566 --button-background=#009999 --button-border=#002b33 --border-bottom=#002b33"
+    "on-click": "sh ~/.config/rofi/powermenu.sh"
   }
 }
