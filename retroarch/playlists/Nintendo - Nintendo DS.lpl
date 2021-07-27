@@ -2,73 +2,18 @@
   "version": "1.4",
   "default_core_path": "",
   "default_core_name": "",
+  "base_content_directory": "?]\u001b>\r?",
   "label_display_mode": 0,
   "right_thumbnail_mode": 0,
   "left_thumbnail_mode": 0,
   "sort_mode": 0,
   "items": [
     {
-      "path": "/home/asito/HDD/games/roms/nds/YOSHI_ISLAND_AYWP01_01.nds",
-      "label": "Yoshi's Island DS (Europe) (En,Fr,De,Es,It) (Rev 1)",
+      "path": "/home/asito/HDD/games/roms/nds/0216 - Mario & Luigi - Partners in Time (U)(SCZ).nds",
+      "label": "Mario & Luigi - Partners in Time (USA)",
       "core_path": "DETECT",
       "core_name": "DETECT",
-      "crc32": "B0D274A7|crc",
-      "db_name": "Nintendo - Nintendo DS.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/nds/POKEMON_PL_CPUI01_00.nds",
-      "label": "Pokemon - Versione Platino (Italy)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "0DDBE664|crc",
-      "db_name": "Nintendo - Nintendo DS.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/nds/POKEMON_HG_IPKI01_00.nds",
-      "label": "Pokemon - Versione Oro HeartGold (Italy)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "2646AE79|crc",
-      "db_name": "Nintendo - Nintendo DS.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/nds/pearl.nds",
-      "label": "Pokemon - Pearl Version (USA) (Rev 5)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "E2D87EBF|crc",
-      "db_name": "Nintendo - Nintendo DS.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/nds/NEW_MARIO_A2DP01_00.nds",
-      "label": "New Super Mario Bros. (Europe) (En,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "F443F9BF|crc",
-      "db_name": "Nintendo - Nintendo DS.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/nds/MARIOKARTDS_AMCP01_00.nds",
-      "label": "Mario Kart DS (Europe) (En,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "94E8127E|crc",
-      "db_name": "Nintendo - Nintendo DS.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/nds/2433 - Pokemon Mystery Dungeon - Explorers of Time (E)(EXiMiUS).nds",
-      "label": "Pokemon Mystery Dungeon - Explorers of Time (Europe) (En,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "5A8AAEDB|crc",
-      "db_name": "Nintendo - Nintendo DS.lpl"
-    },
-    {
-      "path": "/home/asito/HDD/games/roms/nds/2125 - Mr Bean (E)(SQUiRE).nds",
-      "label": "Mr Bean (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "E8F7A5CF|crc",
+      "crc32": "885E88AF|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
@@ -80,11 +25,27 @@
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
-      "path": "/home/asito/HDD/games/roms/nds/1016 - Pokemon Pearl (v05) (U)(Legacy).nds",
-      "label": "Pokemon - Pearl Version (USA) (Rev 5)",
+      "path": "/home/asito/HDD/games/roms/nds/MARIOKARTDS_AMCP01_00.nds",
+      "label": "Mario Kart DS (Europe) (En,Fr,De,Es,It)",
       "core_path": "DETECT",
       "core_name": "DETECT",
-      "crc32": "E2D87EBF|crc",
+      "crc32": "94E8127E|crc",
+      "db_name": "Nintendo - Nintendo DS.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/nds/2125 - Mr Bean (E)(SQUiRE).nds",
+      "label": "Mr Bean (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E8F7A5CF|crc",
+      "db_name": "Nintendo - Nintendo DS.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/nds/NEW_MARIO_A2DP01_00.nds",
+      "label": "New Super Mario Bros. (Europe) (En,Fr,De,Es,It)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F443F9BF|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
@@ -96,11 +57,35 @@
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
-      "path": "/home/asito/HDD/games/roms/nds/0644 - Pokemon Ranger (U)(Legacy).nds",
-      "label": "Pokemon Ranger (USA)",
+      "path": "/home/asito/HDD/games/roms/nds/pearl.nds",
+      "label": "Pokemon - Pearl Version (USA) (Rev 5)",
       "core_path": "DETECT",
       "core_name": "DETECT",
-      "crc32": "6C632E0B|crc",
+      "crc32": "E2D87EBF|crc",
+      "db_name": "Nintendo - Nintendo DS.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/nds/1016 - Pokemon Pearl (v05) (U)(Legacy).nds",
+      "label": "Pokemon - Pearl Version (USA) (Rev 5)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E2D87EBF|crc",
+      "db_name": "Nintendo - Nintendo DS.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/nds/POKEMON_HG_IPKI01_00.nds",
+      "label": "Pokemon - Versione Oro HeartGold (Italy)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2646AE79|crc",
+      "db_name": "Nintendo - Nintendo DS.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/nds/POKEMON_PL_CPUI01_00.nds",
+      "label": "Pokemon - Versione Platino (Italy)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0DDBE664|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
@@ -112,18 +97,34 @@
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
-      "path": "/home/asito/HDD/games/roms/nds/0216 - Mario & Luigi - Partners in Time (U)(SCZ).nds",
-      "label": "Mario & Luigi - Partners in Time (USA)",
+      "path": "/home/asito/HDD/games/roms/nds/2433 - Pokemon Mystery Dungeon - Explorers of Time (E)(EXiMiUS).nds",
+      "label": "Pokemon Mystery Dungeon - Explorers of Time (Europe) (En,Fr,De,Es,It)",
       "core_path": "DETECT",
       "core_name": "DETECT",
-      "crc32": "885E88AF|crc",
+      "crc32": "5A8AAEDB|crc",
+      "db_name": "Nintendo - Nintendo DS.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/nds/0644 - Pokemon Ranger (U)(Legacy).nds",
+      "label": "Pokemon Ranger (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6C632E0B|crc",
+      "db_name": "Nintendo - Nintendo DS.lpl"
+    },
+    {
+      "path": "/home/asito/HDD/games/roms/nds/4209 - Professor Layton e lo Scrigno di Pandora, Il (Italy).nds",
+      "label": "Professor Layton e lo Scrigno di Pandora, Il (Italy)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4AC50124|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/home/asito/HDD/games/roms/nds/0181 - Shrek - Super Slam (E)(Legacy).nds",
       "label": "Shrek - Super Slam (Europe) (En,Fr,De,Es,It,Nl)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/usr/lib/libretro/desmume_libretro.so",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "646776EB|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
@@ -136,11 +137,11 @@
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
-      "path": "/home/asito/HDD/games/roms/nds/4209 - Professor Layton e lo Scrigno di Pandora, Il (Italy).nds",
-      "label": "Professor Layton e lo Scrigno di Pandora, Il (Italy)",
+      "path": "/home/asito/HDD/games/roms/nds/YOSHI_ISLAND_AYWP01_01.nds",
+      "label": "Yoshi's Island DS (Europe) (En,Fr,De,Es,It) (Rev 1)",
       "core_path": "DETECT",
       "core_name": "DETECT",
-      "crc32": "4AC50124|crc",
+      "crc32": "B0D274A7|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     }
   ]
