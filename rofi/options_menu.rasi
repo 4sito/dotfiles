@@ -14,7 +14,7 @@ blue6: #026aa7;
 blue7: #055a8c;
 blue8: #094c72;
 
-background: @blue5;
+background: @blue2;
 background-color: @background;
 foreground: @blue6;
 border-color: @background;
