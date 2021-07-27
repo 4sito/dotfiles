@@ -1,11 +1,36 @@
-
-
 configuration {
     theme:                          "config";
     show-icons:                     false;
     font:                           "Font Awesome 17";
 }
 
+*{
+blue1: #bcd9ea;
+blue2: #8bbdd9;
+blue3: #5ba4cf;
+blue4: #298fca;
+blue5: #0079bf;
+blue6: #026aa7;
+blue7: #055a8c;
+blue8: #094c72;
+
+background: @blue5;
+background-color: @background;
+foreground: @blue6;
+border-color: @background;
+
+normal-background: @background;
+normal-foreground: @foreground;
+selected-normal-background: @blue3;
+selected-normal-foreground: @blue2;
+
+active-background: @blue6;
+active-foreground: @background;
+selected-active-background: @blue2;
+
+urgent-background: @blue3;
+urgent-foreground: @background;
+}
 
 window {
     height:                         370px; // 1440 - 2*16
@@ -21,7 +46,6 @@ mainbox {
     children:                       [listview]; /* No text entry */
     border:                         4px;
     border-radius:5;
-    border-color:                   #000000;
     padding:                        12px;
 }
 
@@ -35,7 +59,6 @@ element-text {
     vertical-align:                 4;
     margin:                         5px;
     border:                         0px;
-    border-color:                   #298fca;
     border-radius:                  5;
     padding:                        12px 0px 6px;
     width: 50px;
