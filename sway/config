@@ -61,6 +61,9 @@ set $screen_p ~/Pictures/Screenshots
 # set powermenu script
 set $power ~/.config/rofi/powermenu.sh
 
+# set upgrade command
+set $upgrade alacritty --command sudo pacman -Syu
+
 # exec on startup 
 
 #             _               _
@@ -143,7 +146,9 @@ input "type:keyboard" {
    
     # Network manager 
     bindsym $mod2+d exec $network 
-
+    
+    # Upgrade command
+    bindsym $mod2+u exec $upgrade
     # Screenshot
     bindsym $mod2+$mod+3 exec grim $screen_p/$(date +%Y-%m-%d_%H-%m-%s).png
     bindsym $mod2+$mod+4 exec grim  -g "$(slurp)" $screen_p/$(date +%Y-%m-%d_%H-%m-%s).png
@@ -153,8 +158,6 @@ input "type:keyboard" {
     # Change normal to inverse to use left mouse button for resizing and right
     # mouse button for dragging.
     floating_modifier $mod normal
-
-    # Reload the configuration file
     bindsym $mod+Shift+r reload
     
     # custom powermenu script
