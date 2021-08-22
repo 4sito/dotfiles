@@ -87,10 +87,11 @@ output DP resolution 1920x1080@71.910Hz position 0,0
 
 #
 bindsym $mod+x exec swaylock -i $wallpaper -s fill
-exec swayidle -w \
-          timeout 300 'swaylock -i $wallpaper -s fill' \
-          timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
-          before-sleep 'swaylock -i $wallpaper -s fill'
+
+#exec swayidle -w \
+#          timeout 300 'swaylock -i $wallpaper -s fill' \
+#          timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+#          before-sleep 'swaylock -i $wallpaper -s fill'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
