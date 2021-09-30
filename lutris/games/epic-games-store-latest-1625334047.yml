@@ -4,12 +4,15 @@ game:
   exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
   prefix: /home/asito/Games/epic-games-store
 system:
+  aco: true
   env:
     DXVK_HUD: compiler
     MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
     __GL_SHADER_DISK_CACHE: '1'
     __GL_SHADER_DISK_CACHE_PATH: /home/asito/Games/epic-games-store
 wine:
+  custom_wine_path: /home/asito/Downloads/wine_6.6/bin/wine64
   dxvk: true
   esync: true
+  system_winetricks: true
   version: lutris-6.10-7-x86_64

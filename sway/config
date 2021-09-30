@@ -64,6 +64,10 @@ set $power ~/.config/rofi/powermenu.sh
 # set upgrade command
 set $upgrade alacritty --command sudo pacman -Syu
 
+set $epic wine /home/asito/Games/epic-games-store/drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+set $epic_games alacritty --command $epic
+set $bakkes /home/asito/Games/epic-games-store/drive_c/Program Files/BakkesMod/BakkesMod.exe
+
 # exec on startup 
 
 #             _               _
@@ -116,7 +120,7 @@ bindsym $mod+x exec swaylock -i $wallpaper -s fill
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
 input "type:keyboard" {
-	xkb_layout us,it
+	xkb_layout us
 	xkb_options caps:swapescape,mod_led:compose,grp:alts_toggle
 	xkb_numlock enabled
 	xkb_switch_layout next
@@ -161,6 +165,7 @@ input "type:keyboard" {
     floating_modifier $mod normal
     bindsym $mod+Shift+r reload
     
+    bindsym $mod2+$mod+g exec $epic_games 
     # custom powermenu script
     bindsym $mod+m exec  sh $power
     # Exit sway (logs you out of your Wayland session)
