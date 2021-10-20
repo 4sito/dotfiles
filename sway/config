@@ -334,5 +334,7 @@ for_window [class="^.*"] opacity set 0.80
 # enable xwayland only if an app requires it (discord)
 xwayland enable
 
+# commands to execute 
+bindsym $mod+$mod2+l exec alacritty --command gammastep -c ~/.config/gammastep/config.ini
 
 include /etc/sway/config.d/*
