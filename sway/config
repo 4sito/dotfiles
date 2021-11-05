@@ -50,7 +50,7 @@ set $brow firefox
 set $file pcmanfm
 
 # set wallpaper path
-set $wallpaper ~/Pictures/pine_tree.jpg
+set $wallpaper ~/Pictures/avatar.jpg
 
 # set network manager of choice + start networking
 set $network networkmanager_dmenu
