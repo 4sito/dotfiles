@@ -121,10 +121,12 @@ bindsym $mod+x exec swaylock -i $wallpaper -s fill
 # Read `man 5 sway-input` for more information about this section.
 input "type:keyboard" {
 	xkb_layout us
-	xkb_options caps:swapescape,mod_led:compose,grp:alts_toggle
+	xkb_options caps:swapescape,grp:alts_toggle
 	xkb_numlock enabled
 	xkb_switch_layout next
 	}
+
+exec setxkbmap -option compose:ralt
 # _                _     _           _ _
 #| | _____ _   _  | |__ (_)_ __   __| (_)_ __   __ _ ___
 #| |/ / _ \ | | | | '_ \| | '_ \ / _` | | '_ \ / _` / __|
