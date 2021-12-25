@@ -64,7 +64,7 @@
         "spacing": 10
     },
     "clock": {
-        "timezone": "Europe/Rome",
+        "timezone": "GMT",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },

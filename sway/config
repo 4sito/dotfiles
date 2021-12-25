@@ -50,7 +50,7 @@ set $brow firefox
 set $file pcmanfm
 
 # set wallpaper path
-set $wallpaper ~/Pictures/avatar.jpg
+set $wallpaper ~/Pictures/1440p/earth.jpg
 
 # set network manager of choice + start networking
 set $network networkmanager_dmenu
@@ -82,7 +82,7 @@ bindsym $mod+n exec swaync-client -t -sw
 # \___/ \__,_|\__| .__/ \__,_|\__|
 #                |_|
 
-output * bg $wallpaper fill
+output * bg $wallpaper fill 
 #
 output HDMI-A-2 resolution 1920x1080@60.00Hz position 0,0
 output DP-2 resolution 2560x1440@144.00Hz position 1980,0
