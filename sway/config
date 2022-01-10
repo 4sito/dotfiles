@@ -64,12 +64,15 @@ set $power ~/.config/rofi/powermenu.sh
 # set upgrade command
 set $upgrade alacritty --command sudo pacman -Syu
 
-set $epic wine /home/asito/Games/epic-games-store/drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
-set $epic_games alacritty --command $epic
-set $bakkes /home/asito/Games/epic-games-store/drive_c/Program Files/BakkesMod/BakkesMod.exe
+set $rl legendary launch Sugar
 
 # exec on startup 
 
+
+# gnome keyring 
+
+
+exec --no-startup-id gnome-keyring-daemon --start 
 # Notification Daemon
 exec --no-startup-id swaync
 
@@ -180,6 +183,7 @@ input * scroll_factor 0.5
     floating_modifier $mod normal
     bindsym $mod+Shift+r reload
     
+    bindsym $mod2+g exec $rl
     bindsym $mod2+$mod+g exec $epic_games 
     # custom powermenu script
     bindsym $mod+m exec  sh $power
