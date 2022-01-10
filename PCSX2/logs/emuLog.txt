@@ -1,10 +1,10 @@
 
-PCSX2 1.7.0-20210907093309 
-Savestate version: 0x9a230000
+PCSX2 Nightly - v1.7.2101 Compiled on Dec  6 2021
+Savestate version: 0x9a290000
 
 Host Machine Init:
 	Operating System =  Arch Linux
-	Physical RAM     =  15854 MB
+	Physical RAM     =  15851 MB
 	CPU name         =  Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
 	Vendor/Model     =  GenuineIntel (stepping 03)
 	CPU speed        =  2.901 ghz (12 logical threads)
@@ -18,172 +18,74 @@ x86 Features Detected:
 
 Installing POSIX SIGSEGV handler...
 Reserving memory for recompilers...
-[GameDB] 10627 games on record (loaded in 191ms)
-HLE Host: Set 'host:' root path to: /
+[GameDB] 10738 games on record (loaded in 197ms)
 
-Patches: No CRC found, using 00000000 instead.
-isoFile open ok: /home/asito/Games/Dragon Ball Z - Budokai Tenkaichi 2 (USA) (En,Ja).iso
-	Image type  = DVD
- * CDVD Disk Open: DVD, Single layer or unknown:
- * * Track 1: Data (Mode 1) (971339 sectors)
-EGL: Supported extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_MESA_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
-EGL: select X11 platform
-OpenGL information. GPU: Radeon RX 580 Series (POLARIS10, DRM 3.42.0, 5.14.2-arch1-2, LLVM 12.0.1). Vendor: AMD. Driver: (Core Profile) Mesa 21.2.1
-INFO: GL_ARB_sparse_texture is NOT SUPPORTED
-INFO: GL_ARB_sparse_texture2 is NOT SUPPORTED
-INFO: GL_ARB_gpu_shader5 is available
-INFO: GL_ARB_shader_image_load_store is available
-INFO: GL_ARB_compute_shader is available
-INFO: GL_ARB_shader_storage_buffer_object is available
-INFO: GL_ARB_texture_view is available
-INFO: GL_ARB_vertex_attrib_binding is available
-INFO: GL_ARB_clear_texture is available
-INFO: GL_ARB_multi_bind is available
-INFO: GL_ARB_direct_state_access is available
-INFO: GL_ARB_texture_barrier is available
-INFO: GL_ARB_get_texture_sub_image is available
+(PCSX2:58291): Gdk-CRITICAL **: 13:15:34.730: gdk_window_process_updates: assertion 'GDK_IS_WINDOW (window)' failed
+Bios Found: Japan   v01.00(17/01/2000)  Console
+Bios Found: Europe  v02.00(14/06/2004)  Console
+Bios Found: USA     v01.60(07/02/2002)  Console
+Bios Found: Europe  v01.60(04/10/2001)  Console
 
-Current Renderer: OpenGL
-Available VRAM/RAM:2603MB for textures
-GS Lookup CRC:00000000
-48000 SampleRate: 
-GS Lookup CRC:00000000
-Request SDL audio driver: pulseaudio
-Opened SDL audio driver: pulseaudio
-PAD: controller (Xbox Series X Controller) detected with rumble support, GUID:030000005e040000120b000009050000
-McdSlot 0 [File]: /home/asito/.config/PCSX2/memcards/Mcd001.ps2
-McdSlot 1 [File]: /home/asito/.config/PCSX2/memcards/Mcd002.ps2
-EE/iR5900-32 Recompiler Reset
-	Bios Found: USA     v01.60(07/02/2002)  Console
-	BIOS r module not found, skipping...
-	BIOS r module not found, skipping...
-	BIOS e module not found, skipping...
-# Initialize memory (rev:3.63, ctm:196Mhz, cpuclk:147Mhz detected)
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
 
-PlayStation 2 ======== Hard reset boot
- ROMGEN=2002-0207, IOP info (CPUID=1f, CACH_CONFIG=0, 2MB, IOP mode)
- <20020207-164243,ROMconf,PS20160AC20020207.bin:11552>
-# Total accessable memory size: 32 MB (B:2:8:0) (363:2:7c30)
-# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
-# Initialize Start.
-# Initialize GS ...
-# Initialize INTC ...
-# Initialize TIMER ...
-# Initialize DMAC ...
-# Initialize VU1 ...
-# Initialize VIF1 ...
-# Initialize GIF ...
-# Initialize VU0 ...
-# Initialize VIF0 ...
-# Initialize IPU ...
-# Initialize FPU ...
-# Initialize User Memory ...
-PAD: controller (Xbox Series X Controller) detected with rumble support, GUID:030000005e040000120b000009050000
-# Initialize Scratch Pad ...
-# Initialize Done.
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
 
-EE DECI2 Manager version 0.06 Feb  7 2002 16:41:20
-  CPUID=2e20, BoardID=0, ROMGEN=2002-0207, 32M
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
 
-Patches: No CRC found, using 00000000 instead.
-(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_214.41;1
-(SYSTEM.CNF) Software version = 1.00
-(SYSTEM.CNF) Disc region type = NTSC
-ELF (cdrom0:\SLUS_214.41;1) Game CRC = 0xFE961D28, EntryPoint = 0x00100008
-(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_214.41;1
-(SYSTEM.CNF) Software version = 1.00
-(SYSTEM.CNF) Disc region type = NTSC
-
-IOP Realtime Kernel Ver.0.9.1
-    Copyright 1999 (C) Sony Computer Entertainment Inc. 
-Reboot service module.(99/11/10)
-cdvd driver module version 0.1.1 (C)SCEI
-Load File service.(99/11/05)
-Multi Threaded Fileio module.(99/11/15) 
-iop heap service (99/11/03)
-loadelf: fname rom0:OSDSYS secname all
-loadelf version 3.30
-Input ELF format filename = rom0:OSDSYS
-0 00100000 0004c718 .....
-Loaded, rom0:OSDSYS
-start address 0x100008
-gp address 00000000
-# Restart Without Memory Clear.
-# Initialize GS ...
-# Initialize INTC ...
-# Initialize TIMER ...
-# Initialize DMAC ...
-# Initialize VU1 ...
-# Initialize VIF1 ...
-# Initialize GIF ...
-# Initialize VU0 ...
-# Initialize VIF0 ...
-# Initialize IPU ...
-# Initialize FPU ...
-# Initialize Scratch Pad ...
-# Restart Without Memory Clear Done.
-# Restart Without Memory Clear.
-# Initialize GS ...
-# Initialize INTC ...
-# Initialize TIMER ...
-# Initialize DMAC ...
-# Initialize VU1 ...
-# Initialize VIF1 ...
-# Initialize GIF ...
-# Initialize VU0 ...
-# Initialize VIF0 ...
-# Initialize IPU ...
-# Initialize FPU ...
-# Initialize Scratch Pad ...
-# Restart Without Memory Clear Done.
-Get Reboot Request From EE
-ROM directory not found
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
 
-PlayStation 2 ======== Update rebooting..
-ROM directory not found
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
 
-PlayStation 2 ======== Update reboot complete
-cdvdman Init
-rmreset start
-rmreset end
-clearspu: completed
-Pad Driver for OSD (2000/12/05 18:05) 392, 128
-
-IOP Realtime Kernel Ver.0.9.1
-    Copyright 1999 (C) Sony Computer Entertainment Inc. 
-Reboot service module.(99/11/10)
-cdvd driver module version 0.1.1 (C)SCEI
-Load File service.(99/11/05)
-Multi Threaded Fileio module.(99/11/15) 
-iop heap service (99/11/03)
-read/write allocate memory 4000
-open name rom0:ROMVER flag 1 data 48a78
-open fd = 2
-loadmodule: fname rom0:ATAD args 0 arg 
-ATA: DEV9C version 0x0: unknown device detected
-loadmodule: id 31, ret 1
-loadmodule: fname rom0:HDDLOAD args 28 arg -osd
-loadmodule: id -200, ret 1
-open name rom0:FONTM flag 1 data 48a78
-open fd = 2
-open name rom0:FNTIMAGE flag 1 data 48a78
-open fd = 2
-open name rom0:SNDIMAGE flag 1 data 48a78
-open fd = 2
-open name rom0:TEXIMAGE flag 1 data 48a78
-open fd = 2
-open name rom0:ICOIMAGE flag 1 data 48a78
-open fd = 2
-open name rom0:TZLIST flag 1 data 48a78
-open fd = 2
-_spu_rev_offsetaddr 1f9021
-### addr = 1034255  size = 28640
-_spu_rev_offsetaddr 1d9021
-### addr = 968719  size = 28640
-open name rom0:ROMVER flag 1 data 48a78
-open fd = 2
-open name rom1:DVDID flag 1 data 48a78
-open fd = -6
-(UpdateVSyncRate) Mode Changed to DVD NTSC.
-Delete 0 Shaders, 52 Programs, 28 Pipelines
-(GameDB) Unloading...
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.242: Negative content width -9 (allocation 1, extents 5x5) while allocating gadget (node scrollbar, owner GtkScrollbar)
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.242: Negative content width -9 (allocation 1, extents 5x5) while allocating gadget (node scrollbar, owner GtkScrollbar)
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.242: Negative content width -9 (allocation 1, extents 5x5) while allocating gadget (node scrollbar, owner GtkScrollbar)
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.242: Negative content height -9 (allocation 1, extents 5x5) while allocating gadget (node scrollbar, owner GtkScrollbar)
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkNotebook
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.242: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.243: Negative content width -9 (allocation 1, extents 5x5) while allocating gadget (node scrollbar, owner GtkScrollbar)
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.243: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.243: Negative content height -9 (allocation 1, extents 5x5) while allocating gadget (node scrollbar, owner GtkScrollbar)
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.243: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.255: Negative content width -17 (allocation 1, extents 9x9) while allocating gadget (node entry, owner GtkEntry)
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.255: Negative content width -13 (allocation 1, extents 7x7) while allocating gadget (node button, owner GtkButton)
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.255: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkCheckButton
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.255: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkRadioButton
+
+(PCSX2:58291): Gtk-CRITICAL **: 13:15:45.255: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkRadioButton
+
+(PCSX2:58291): Gtk-WARNING **: 13:15:45.255: Negative content width -17 (allocation 1,

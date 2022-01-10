@@ -1,0 +1,18 @@
+[General]
+Recent Urls[$e]=file:$HOME/Downloads/I missed the part where that's my problem.-pJTGAtLH7Hw.mp4
+TimeFormat=1
+Volume=1
+
+[MainWindow]
+DP-2 Window-Maximized 2560x1440=true
+State=AAAA/wAAAAD9AAAAAAAABOwAAAUFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[file:///home/asito/Downloads/I missed the part where that's my problem.-pJTGAtLH7Hw.mp4]
+Brightness=0
+Contrast=0
+Date=2022,1,5
+Hue=0
+IsVideo=false
+Preferred Size=1260,1285
+Saturation=0

@@ -1,0 +1,139 @@
+{
+	"library": [
+		{
+			"app_name": "fe6c485736bc4ed48c835290ce48099b",
+			"art_cover": "https://cdn1.epicgames.com/tulip/item/Delores_Epic_2560x2440_v1-2560x1440-a282575c156f41cf03a022cb28ef2477.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/tulip/item/Delores_Epic_1200x1600_v1-1200x1600-64fd63efe1c62acf2375b5edc2cfaf7b.jpg",
+			"cloud_save_enabled": false,
+			"compatible_apps": [],
+			"developer": "Terrible Toybox, Inc.",
+			"extra": {
+				"about": {
+					"description": "Delores: A Thimbleweed Park mini-adventure",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Delores",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "tulip",
+			"is_mac_native": true,
+			"save_folder": "",
+			"title": "Delores: A Thimbleweed Park mini-adventure",
+			"canRunOffline": true
+		},
+		{
+			"app_name": "Fortnite",
+			"art_cover": "https://cdn1.epicgames.com/item/fn/19BR_KeyArt_EGS_Launcher_Blade_2560x1440_2560x1440-0c719814e3356a4726560c70f0462e7b",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/fn/19BR_KeyArt_EGS_Launcher_Blade_1200x1600_1200x1600-b49da2ae039bd0adb44171318c91787b",
+			"cloud_save_enabled": false,
+			"compatible_apps": [],
+			"developer": "Epic Games",
+			"extra": {
+				"about": {
+					"description": "Battle. Build. Create. Fortnite is the free, always evolving, multiplayer game where you and your friends battle to be the last one standing or collaborate to create your dream Fortnite world. Play both Battle Royale and Fortnite Creative for FREE.",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "Fortnite",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "fn",
+			"is_mac_native": true,
+			"save_folder": "",
+			"title": "Fortnite",
+			"canRunOffline": false
+		},
+		{
+			"app_name": "373a4372c20540aca7fdd880d27fa49a",
+			"art_cover": "https://cdn1.epicgames.com/047392e91d5e4cfdb19e2767440ab206/item/EGS_JurassicWorldEvolution_FrontierDevelopments_S1-2560x1440-65771d1c16c9c78bfd4764bf0ad54d9a.jpg",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/047392e91d5e4cfdb19e2767440ab206/item/EGS_JurassicWorldEvolution_FrontierDevelopments_S2-1200x1600-d132a04130d2fad11948e182046f50dc.jpg",
+			"cloud_save_enabled": true,
+			"developer": "Frontier Developments",
+			"extra": {
+				"about": {
+					"description": "Jurassic World Evolution",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "JurassicWorldEvolution",
+			"install": {
+				"executable": null,
+				"install_path": null,
+				"install_size": null,
+				"is_dlc": false,
+				"version": null
+			},
+			"is_game": true,
+			"is_installed": false,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "047392e91d5e4cfdb19e2767440ab206",
+			"is_mac_native": false,
+			"save_folder": "{UserSavedGames}/Frontier Developments/Jurassic World Evolution/{EpicID}/",
+			"title": "Jurassic World Evolution",
+			"canRunOffline": false
+		},
+		{
+			"app_name": "Sugar",
+			"art_cover": "https://cdn1.epicgames.com/item/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3",
+			"art_logo": null,
+			"art_square": "https://cdn1.epicgames.com/item/9773aa1aa54f4f7b80e44bef04986cea/5748aa76-eaff-451a-b5bb-3bff8a4f4fc2_1200x1600-f0107f8dec9b4659b77ef166f92b3637",
+			"cloud_save_enabled": false,
+			"developer": "Psyonix LLC",
+			"extra": {
+				"about": {
+					"description": "Rocket League®",
+					"shortDescription": ""
+				},
+				"reqs": {}
+			},
+			"folder_name": "rocketleague",
+			"install": {
+				"executable": "Binaries/Win64/RocketLeague.exe",
+				"install_path": "/home/asito/Games/epic-games-store/drive_c/Program Files/Epic Games/rocketleague",
+				"install_size": "19.6 GB",
+				"is_dlc": false,
+				"version": "BC2_Update36+355454",
+				"platform": "Windows"
+			},
+			"is_game": true,
+			"is_installed": true,
+			"is_ue_asset": false,
+			"is_ue_plugin": false,
+			"is_ue_project": false,
+			"namespace": "9773aa1aa54f4f7b80e44bef04986cea",
+			"is_mac_native": false,
+			"save_folder": "",
+			"title": "Rocket League®",
+			"canRunOffline": true
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"Sugar": {
+		"game": {
+			"app_name": "Sugar",
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"cloud_saves_supported": false,
+			"external_activation": null,
+			"is_dlc": false,
+			"launch_options": [],
+			"owned_dlc": [],
+			"platform_versions": {
+				"Windows": "BC2_Update36+355454"
+			},
+			"title": "Rocket League®",
+			"version": "BC2_Update36+355454"
+		},
+		"install": {
+			"disk_size": 17293770624,
+			"install_path": "/home/asito/Games/epic-games-store/drive_c/Program Files/Epic Games/rocketleague",
+			"install_tags": [],
+			"installed_dlc": [],
+			"platform": "Windows",
+			"requires_ovt": false,
+			"save_path": null,
+			"synced_egl_guid": "",
+			"version": "BC2_Update35 CL 343465"
+		},
+		"manifest": {
+			"app_name": "SugarStaging",
+			"build_id": "IzOm2JAModP-B6Uo6NB9CIAIbO4",
+			"build_version": "BC2_Update36+355454",
+			"disk_size": 19563924243,
+			"download_size": 17950705595,
+			"feature_level": 17,
+			"install_tags": [
+				""
+			],
+			"launch_command": "",
+			"launch_exe": "Binaries/Win64/RocketLeague.exe",
+			"num_chunks": 17490,
+			"num_files": 9514,
+			"prerequisites": null,
+			"size": 1520258,
+			"tag_disk_size": [],
+			"tag_download_size": [],
+			"type": "binary",
+			"version": 17
+		}
+	}
+}
