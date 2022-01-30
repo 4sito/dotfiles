@@ -53,6 +53,7 @@ Plug 'itchyny/lightline.vim'
 " show mode in status bar
 :set noshowmode
 
+set laststatus=2
 
 " Trigger configuration. You need to change this to something other than <tab> if you use one of the following:
 " - https://github.com/Valloric/YouCompleteMe

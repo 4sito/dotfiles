@@ -3,49 +3,119 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
-
-### Variables
+#  ______        ___ __   __   ____ ___  _   _ _____ ___ ____
+# / ___\ \      / / \\ \ / /  / ___/ _ \| \ | |  ___|_ _/ ___|
+# \___ \\ \ /\ / / _ \\ V /  | |  | | | |  \| | |_   | | |  _
+#  ___) |\ V  V / ___ \| |   | |__| |_| | |\  |  _|  | | |_| |
+# |____/  \_/\_/_/   \_\_|    \____\___/|_| \_|_|   |___\____|
 #
-# Logo key. Use Mod1 for Alt.
+#  _____ ___ _     _____
+# |  ___|_ _| |   | ____|
+# | |_   | || |   |  _|
+# |  _|  | || |___| |___
+# |_|   |___|_____|_____|
+#
+#
 
-set $mod Mod4
+
+
+
+# __   ____ _ _ __(_) __ _| |__ | | ___  ___
+# \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+#  \ V / (_| | |  | | (_| | |_) | |  __/\__ \
+#   \_/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+
+# Logo key. Use Mod1 for Alt.
+set $mod Mod1
+set $mod2 Control
 # Home row direction keys, like vim
 set $left h
 set $down j
 set $up k
 set $right l
+
 # Your preferred terminal emulator
 set $term alacritty
+
+
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
+set $menu "rofi -modi drun#run#ssh -show drun"
 
-### Output configuration
+# set browser
+set $brow firefox
+
+# set file manager
+set $file pcmanfm
+
+# set wallpaper path
+set $wallpaper ~/Pictures/mountains.png
+
+# set network manager of choice + start networking
+set $network networkmanager_dmenu
+exec nm-applet
+# set screenshot path
+set $screen_p ~/Pictures/Screenshots
+
+# set powermenu script
+set $power ~/.config/rofi/powermenu.sh
+
+# set upgrade command
+set $upgrade alacritty --command sudo pacman -Syu
+
+set $rl legendary launch Sugar
+
+# exec on startup 
+
+
+# gnome keyring 
+
+
+exec --no-startup-id gnome-keyring-daemon --start 
+# Notification Daemon
+exec --no-startup-id swaync
+
+# Toggle notification panel
+bindsym $mod+n exec swaync-client -t -sw
+#             _               _
+#  ___  _   _| |_ _ __  _   _| |_
+# / _ \| | | | __| '_ \| | | | __|
+#| (_) | |_| | |_| |_) | |_| | |_
+# \___/ \__,_|\__| .__/ \__,_|\__|
+#                |_|
+
+output * bg $wallpaper fill 
 #
-# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-#
-# Example configuration:
-#
-#   output HDMI-A-1 resolution 1920x1080 position 1920,0
+output HDMI-A-2 resolution 1920x1080@60.00Hz position 0,0
+output DP-2 resolution 2560x1440@144.00Hz position 1980,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
-### Idle configuration
+# _     _ _
+#(_) __| | | ___
+#| |/ _` | |/ _ \
+#| | (_| | |  __/
+#|_|\__,_|_|\___|
+
 #
-# Example configuration:
-#
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
+bindsym $mod+x exec swaylock -i $wallpaper -s fill
+
+#exec swayidle -w \
+#          timeout 300 'swaylock -i $wallpaper -s fill' \
 #          timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
-#          before-sleep 'swaylock -f -c 000000'
+#          before-sleep 'swaylock -i $wallpaper -s fill'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 
-### Input configuration
+# _                   _
+#(_)_ __  _ __  _   _| |_
+#| | '_ \| '_ \| | | | __|
+#| | | | | |_) | |_| | |_
+#|_|_| |_| .__/ \__,_|\__|
+#        |_|
 #
 # Example configuration:
 #
@@ -58,32 +128,67 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
+input "type:keyboard" {
+	xkb_layout "us, it"
+	xkb_options compose:rwin,caps:swapescape,grp:caps_switch
+	xkb_numlock enabled
+	xkb_switch_layout next
+	}
+input "1133:16522:Logitech_MX_Keys" {
+	xkb_model apple
+	xkb_layout "us, it"
+	xkb_options compose:rwin,caps:swapescape,grp:caps_switch
+	xkb_numlock enabled
+	xkb_switch_layout next
+	}
 
-### Key bindings
-#
+input * scroll_factor 0.5 
+# _                _     _           _ _
+#| | _____ _   _  | |__ (_)_ __   __| (_)_ __   __ _ ___
+#| |/ / _ \ | | | | '_ \| | '_ \ / _` | | '_ \ / _` / __|
+#|   <  __/ |_| | | |_) | | | | | (_| | | | | | (_| \__ \
+#|_|\_\___|\__, | |_.__/|_|_| |_|\__,_|_|_| |_|\__, |___/
+#          |___/                               |___/
+
 # Basics:
 #
     # Start a terminal
     bindsym $mod+Return exec $term
 
     # Kill focused window
-    bindsym $mod+Shift+q kill
+    bindsym $mod+q kill
 
     # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+space exec $menu
+    
+    # Start browser
+    bindsym $mod2+space exec $brow
 
+    # Start File manager
+    bindsym $mod2+e exec $file
+   
+    # Network manager 
+    bindsym $mod2+d exec $network 
+    
+    # Upgrade command
+    bindsym $mod2+u exec $upgrade
+    # Screenshot
+    bindsym $mod2+$mod+3 exec grim $screen_p/$(date +%Y-%m-%d_%H-%m-%s).png
+    bindsym $mod2+$mod+4 exec grim  -g "$(slurp)" $screen_p/$(date +%Y-%m-%d_%H-%m-%s).png
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.
     # Change normal to inverse to use left mouse button for resizing and right
     # mouse button for dragging.
     floating_modifier $mod normal
-
-    # Reload the configuration file
-    bindsym $mod+Shift+c reload
-
+    bindsym $mod+Shift+r reload
+    
+    bindsym $mod2+g exec $rl
+    bindsym $mod2+$mod+g exec $epic_games 
+    # custom powermenu script
+    bindsym $mod+m exec  sh $power
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -109,7 +214,11 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Shift+Up move up
     bindsym $mod+Shift+Right move right
 #
-# Workspaces:
+#__      _____  _ __| | _____ _ __   __ _  ___ ___  ___
+#\ \ /\ / / _ \| '__| |/ / __| '_ \ / _` |/ __/ _ \/ __|
+# \ V  V / (_) | |  |   <\__ \ |_) | (_| | (_|  __/\__ \
+#  \_/\_/ \___/|_|  |_|\_\___/ .__/ \__,_|\___\___||___/
+#                            |_|
 #
     # Switch to workspace
     bindsym $mod+1 workspace number 1
@@ -135,9 +244,23 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Shift+0 move container to workspace number 10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
+    
+    # movement to next workspace
+    bindsym $mod2+Right workspace next
+    bindsym $mod2+Left workspace prev
+    
+    bindsym $mod2+Shift+Right move container to workspace next
+    bindsym $mod2+Shift+Left move container to workspace prev
+	
 #
-# Layout stuff:
+# _                         _
+#| | __ _ _   _  ___  _   _| |_
+#| |/ _` | | | |/ _ \| | | | __|
+#| | (_| | |_| | (_) | |_| | |_
+#|_|\__,_|\__, |\___/ \__,_|\__|
+#         |___/
 #
+
     # You can "split" the current object of your focus with
     # $mod+b or $mod+v, for horizontal and vertical splits
     # respectively.
@@ -156,7 +279,7 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Shift+space floating toggle
 
     # Swap focus between the tiling area and the floating area
-    bindsym $mod+space focus mode_toggle
+    #bindsym $mod+space focus mode_toggle
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
@@ -197,22 +320,62 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
-bar {
-    position top
+set $nag exec swaynagmode
+mode "nag" {
+  bindsym {
+    Ctrl+d    mode "default"
 
-    # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
+    Ctrl+c    $nag --exit
+    q         $nag --exit
+    Escape    $nag --exit
 
-    colors {
-        statusline #ffffff
-        background #323232
-        inactive_workspace #32323200 #32323200 #5c5c5c
-    }
+    Return    $nag --confirm
+
+    Tab       $nag --select prev
+    Shift+Tab $nag --select next
+
+    Left      $nag --select next
+    Right     $nag --select prev
+
+    Up        $nag --select next
+    Down      $nag --select prev
+  }
 }
+
+#
+# _
+#| |__   __ _ _ __
+#| '_ \ / _` | '__|
+#| |_) | (_| | |
+#|_.__/ \__,_|_|
+#
+
+
+bar {
+	swaybar_command waybar
+}
+#
+# _             _
+#| | ___   ___ | | __
+#| |/ _ \ / _ \| |/ /
+#| | (_) | (_) |   <
+#|_|\___/ \___/|_|\_\
+#
+
+# no titlebar
+default_border none
+
+# gaps
+gaps inner 10
+gaps outer 5
+
+# opacity
+for_window [class="^.*"] opacity set 0.80
+
+# enable xwayland only if an app requires it (discord)
+xwayland enable
+
+# commands to execute 
+bindsym $mod+$mod2+l exec alacritty --command gammastep -c ~/.config/gammastep/config.ini
 
 include /etc/sway/config.d/*

@@ -1,0 +1,1 @@
+/home/asito/.fzf/shell/key-bindings.fish
