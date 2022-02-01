@@ -93,11 +93,13 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 
 # Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86MonBrightnessDown exec playerctl play
+bindsym XF86MonBrightnessUp exec playerctl pause
+
 # Use Mouse+$mod to drag floating windows to their wanted position
+
 floating_modifier $mod
 
 # start a terminal
@@ -108,11 +110,15 @@ bindsym $mod+Return exec alacritty
 bindsym $mod2+space exec firefox
 
 # start file manager
-bindsym $mod2+f exec pcmanfm
+bindsym $mod2+f exec thunar
 
 # kill focused window
 bindsym $mod+q kill
 bindsym $mod+Shift+w exec xkill
+
+# lock screen
+bindsym $mod+z exec i3lock -i ~/Pictures/mountains.png
+
 #screenshot
 set $screen_p ~/Pictures/Screenshots
 bindsym $mod2+Shift+3 exec flameshot gui -p $screen_p
