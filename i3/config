@@ -128,8 +128,8 @@ bindsym $mod+z exec i3lock -i ~/Pictures/mountains.png
 
 #screenshot
 set $screen_p ~/Pictures/Screenshots
-bindsym $mod2+Shift+3 exec flameshot gui -p $screen_p
-bindsym $mod2+Shift+4 exec flameshot full -p $screen_p 
+bindsym $mod2+$mod+3 exec flameshot full -p $screen_p 
+bindsym $mod2+$mod+4 exec flameshot gui -p $screen_p
 
 # launch rocket league
 bindsym $mod2+g exec $rocket
