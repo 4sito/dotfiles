@@ -229,13 +229,13 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # assign workspaces to monitor
-workspace 1 output $firstmonitor
-workspace 2 output $firstmonitor
-workspace 3 output $firstmonitor
+#workspace 1 output $firstmonitor
+#workspace 2 output $firstmonitor
+#workspace 3 output $firstmonitor
 
-workspace 4 output $secondmonitor
-workspace 5 output $secondmonitor
-workspace 6 output $secondmonitor
+#workspace 4 output $secondmonitor
+#workspace 5 output $secondmonitor
+#workspace 6 output $secondmonitor
 
 #kill windows in workspace N
 bindsym $mod+$mod2+1 [workspace=$ws1] kill
