@@ -12,7 +12,7 @@ set $mod Mod4
 set $mod2 Control
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:monospace 11
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -57,36 +57,6 @@ exec --no-startup-id dunst
 
 set $rocket legendary launch Sugar
 
-
-set $mod Mod4
-set $mod2 Control
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
-font pango:monospace 8
-
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
-
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
-# they are included here as an example. Modify as you see fit.
-
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
-#numlock 
-exec --no-startup-id numlockx &
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
-
-# picom
-exec picom --config ~/.config/picom/picom.conf &
-
-# notification
-exec --no-startup-id dunst
-
 # keyboard
 exec --no-startup-id "setxkbmap -option caps:swapescape,compose:rwin"
 
@@ -112,7 +82,6 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec alacritty
 
-
 # start browser
 bindsym $mod2+space exec firefox
 
@@ -124,7 +93,13 @@ bindsym $mod+q kill
 bindsym $mod+Shift+w exec xkill
 
 # lock screen
-bindsym $mod+z exec i3lock -i ~/Pictures/mountains.png
+#bindsym $mod+z exec i3lock -i ~/Pictures/mountains.png
+
+# powermenu
+bindsym $mod2+e exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
+
+# quicklinks 
+bindsym $mod+o exec --no-startup-id ~/.config/rofi/bin/applet_quicklinks 
 
 #screenshot
 set $screen_p ~/Pictures/Screenshots
@@ -136,7 +111,8 @@ bindsym $mod2+g exec $rocket
 # start dmenu (a program launcher)
 #bindsym $mod+Tab exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
-bindsym $mod+space exec "rofi -modi drun#run -show drun"
+bindsym $mod+space exec ~/.config/rofi/bin/launcher_ribbon
+
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
@@ -301,7 +277,7 @@ gaps outer -5
 #launch conky
 #exec_always --no-startup-id $HOME/.config/conky/conkyx-start.sh
 # background
-set $bg1 /home/asito/Pictures/mountains.png
+set $bg1 /home/asito/Pictures/cabin.png
 set $bg2 /home/asito/Pictures/blue.jpg
 
 exec --no-startup-id feh --bg-fill --no-xinerama $bg1
