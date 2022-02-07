@@ -98,6 +98,8 @@ bindsym $mod+Shift+w exec xkill
 # powermenu
 bindsym $mod2+e exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
 
+#network 
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/bin/applet_network 
 # quicklinks 
 bindsym $mod+o exec --no-startup-id ~/.config/rofi/bin/applet_quicklinks 
 
