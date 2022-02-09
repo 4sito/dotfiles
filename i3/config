@@ -64,6 +64,8 @@ exec --no-startup-id dunst
 # background set up with feh
 exec --no-startup-id feh --bg-fill --no-xinerama $bg1
 
+# redshift adjust screen temperature
+#exec --no-startup-id redshift 
 
 
 #                  _       _     _
