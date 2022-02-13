@@ -149,6 +149,8 @@ bindsym $mod+m exec spotify
 # lock screen
 #bindsym $mod+z exec i3lock -i ~/Pictures/mountains.png
 
+#dnd mode
+bindsym $mod2+d exec dunstctl set-paused toggle
 # powermenu
 bindsym $mod2+e exec --no-startup-id ~/.config/rofi/bin/menu_powermenu
 
