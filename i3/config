@@ -270,6 +270,9 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+#move focused window to next/prev workspace 
+bindsym $mod+$mod2+Right move container to workspace next
+bindsym $mod+$mod2+Left move container to workspace prev
 # assign workspaces to monitor
 #workspace 1 output $firstmonitor
 #workspace 2 output $firstmonitor
