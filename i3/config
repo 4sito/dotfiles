@@ -62,7 +62,7 @@ exec picom --config ~/.config/picom/picom.conf &
 exec --no-startup-id dunst
 
 # background set up with feh
-exec --no-startup-id feh --bg-fill --no-xinerama $bg1
+exec_always --no-startup-id feh --bg-fill --no-xinerama $bg1
 
 # redshift adjust screen temperature
 #exec --no-startup-id redshift 
@@ -82,7 +82,7 @@ set $rocket legendary launch Sugar
 
 
 #background variable
-set $bg1 /home/asito/Pictures/cabin.png
+set $bg1 /home/asito/Pictures/wanderer.jpg
 
 
 
