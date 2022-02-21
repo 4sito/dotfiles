@@ -67,7 +67,8 @@ exec_always --no-startup-id feh --bg-fill --no-xinerama $bg1
 # redshift adjust screen temperature
 #exec --no-startup-id redshift 
 
-
+# thunar
+exec_always thunar --daemon
 #                  _       _     _
 # __   ____ _ _ __(_) __ _| |__ | | ___  ___
 # \ \ / / _` | '__| |/ _` | '_ \| |/ _ \/ __|
@@ -82,7 +83,7 @@ set $rocket legendary launch Sugar
 
 
 #background variable
-set $bg1 /home/asito/Pictures/wanderer.jpg
+set $bg1 /home/asito/Pictures/wp/clean_reflection.jpg
 
 
 
@@ -141,7 +142,7 @@ bindsym $mod2+space exec firefox
 bindsym $mod2+f exec thunar
 
 # kill focused window
-bindsym $mod+BackSpace kill
+bindsym $mod+q kill
 bindsym $mod+Shift+w exec xkill
 
 # start spotify 

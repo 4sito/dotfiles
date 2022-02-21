@@ -10,4 +10,18 @@
 	<startup-notify/>
 	<directories/>
 </action>
+<action>
+	<icon></icon>
+	<name>delete</name>
+	<unique-id>1645450218347478-1</unique-id>
+	<command>rm -r %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
 </actions>
