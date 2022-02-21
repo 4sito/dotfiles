@@ -141,7 +141,7 @@ bindsym $mod2+space exec firefox
 bindsym $mod2+f exec thunar
 
 # kill focused window
-bindsym $mod+q kill
+bindsym $mod+BackSpace kill
 bindsym $mod+Shift+w exec xkill
 
 # start spotify 
