@@ -1,0 +1,351 @@
+11:51:39 AM.417: CPU Name: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+11:51:39 AM.417: CPU Speed: 2900.000MHz
+11:51:39 AM.430: Physical Cores: 6, Logical Cores: 12
+11:51:39 AM.430: Physical Memory: 15849MB Total, 2876MB Free
+11:51:39 AM.430: Kernel Version: Linux 5.16.10-zen1-1-zen
+11:51:39 AM.430: Distribution: "Arch Linux" Unknown
+11:51:39 AM.430: Session Type: x11
+11:51:39 AM.430: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+11:51:39 AM.430: Portable mode: false
+11:51:39 AM.472: OBS 27.1.3-4 (linux)
+11:51:39 AM.472: ---------------------------------
+11:51:39 AM.472: ---------------------------------
+11:51:39 AM.472: audio settings reset:
+11:51:39 AM.472: 	samples per sec: 48000
+11:51:39 AM.472: 	speakers:        2
+11:51:39 AM.474: ---------------------------------
+11:51:39 AM.474: Initializing OpenGL...
+11:51:39 AM.536: Loading up OpenGL on adapter AMD AMD Radeon RX 580 Series (POLARIS10, DRM 3.44.0, 5.16.10-zen1-1-zen, LLVM 13.0.1)
+11:51:39 AM.536: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.3.6, shading language 4.60
+11:51:39 AM.549: ---------------------------------
+11:51:39 AM.549: video settings reset:
+11:51:39 AM.549: 	base resolution:   2560x1440
+11:51:39 AM.549: 	output resolution: 1920x1080
+11:51:39 AM.549: 	downscale filter:  Bicubic
+11:51:39 AM.549: 	fps:               60/1
+11:51:39 AM.549: 	format:            NV12
+11:51:39 AM.549: 	YUV mode:          709/Partial
+11:51:39 AM.550: NV12 texture support not available
+11:51:39 AM.551: Audio monitoring device:
+11:51:39 AM.551: 	name: Default
+11:51:39 AM.551: 	id: default
+11:51:39 AM.551: ---------------------------------
+11:51:39 AM.552: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:51:39 AM.553: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+11:51:39 AM.621: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:51:39 AM.621: No blackmagic support
+11:51:39 AM.630: v4l2loopback not installed, virtual camera disabled
+11:51:39 AM.636: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+11:51:39 AM.636: 
+11:51:39 AM.636: FFMPEG VAAPI supported
+11:51:39 AM.646: ---------------------------------
+11:51:39 AM.646:   Loaded Modules:
+11:51:39 AM.646:     text-freetype2.so
+11:51:39 AM.646:     sndio.so
+11:51:39 AM.646:     rtmp-services.so
+11:51:39 AM.646:     obs-x264.so
+11:51:39 AM.646:     obs-transitions.so
+11:51:39 AM.646:     obs-outputs.so
+11:51:39 AM.646:     obs-libfdk.so
+11:51:39 AM.646:     obs-filters.so
+11:51:39 AM.646:     obs-ffmpeg.so
+11:51:39 AM.646:     linux-v4l2.so
+11:51:39 AM.646:     linux-pulseaudio.so
+11:51:39 AM.646:     linux-jack.so
+11:51:39 AM.646:     linux-decklink.so
+11:51:39 AM.646:     linux-capture.so
+11:51:39 AM.646:     linux-alsa.so
+11:51:39 AM.646:     image-source.so
+11:51:39 AM.646:     frontend-tools.so
+11:51:39 AM.646:     decklink-ouput-ui.so
+11:51:39 AM.646:     decklink-captions.so
+11:51:39 AM.646: ---------------------------------
+11:51:39 AM.646: ==== Startup complete ===============================================
+11:51:39 AM.649: All scene data cleared
+11:51:39 AM.649: ------------------------------------------------
+11:51:39 AM.670: pulse-input: Server name: 'pulseaudio 15.0'
+11:51:39 AM.670: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:51:39 AM.670: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+11:51:39 AM.670: [Loaded global audio device]: 'Desktop Audio'
+11:51:39 AM.670: pulse-input: Server name: 'pulseaudio 15.0'
+11:51:39 AM.670: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:51:39 AM.670: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+11:51:39 AM.670: [Loaded global audio device]: 'Mic/Aux'
+11:51:39 AM.700: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+11:51:39 AM.700: 	title: Rocket League (64-bit, DX11, Cooked)
+11:51:39 AM.700: 	class: rocketleague.exe
+11:51:39 AM.700: 	Bit depth: 24
+11:51:39 AM.700: 	Found proper GLXFBConfig (in 288): yes
+11:51:39 AM.700: 
+11:51:39 AM.700: xshm-input: Geometry 2560x1440 @ 0,0
+11:51:39 AM.702: Switched to scene 'Scene'
+11:51:39 AM.702: ------------------------------------------------
+11:51:39 AM.702: Loaded scenes:
+11:51:39 AM.702: - scene 'Scene':
+11:51:39 AM.703:     - source: 'Screen Capture (XSHM)' (xshm_input)
+11:51:39 AM.703:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+11:51:39 AM.703: ------------------------------------------------
+11:51:40 AM.209: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+11:51:40 AM.209: 
+11:51:42 AM.494: ---------------------------------
+11:51:42 AM.494: [x264 encoder: 'recording_h264'] preset: veryfast
+11:51:42 AM.494: [x264 encoder: 'recording_h264'] settings:
+11:51:42 AM.494: 	rate_control: CBR
+11:51:42 AM.494: 	bitrate:      25000
+11:51:42 AM.494: 	buffer size:  25000
+11:51:42 AM.494: 	crf:          23
+11:51:42 AM.494: 	fps_num:      60
+11:51:42 AM.494: 	fps_den:      1
+11:51:42 AM.494: 	width:        1920
+11:51:42 AM.494: 	height:       1080
+11:51:42 AM.494: 	keyint:       250
+11:51:42 AM.494: 
+11:51:42 AM.500: libfdk_aac encoder created
+11:51:42 AM.500: libfdk_aac bitrate: 160, channels: 2
+11:51:42 AM.500: ==== Replay Buffer Start ===========================================
+11:55:17 AM.003: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/home/asito/Videos/obs/Clip_2022-02-23_11-55-16.mkv'
+11:56:08 AM.268: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+11:56:08 AM.269: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+11:56:08 AM.269: 	title: Rocket League (64-bit, DX11, Cooked)
+11:56:08 AM.269: 	class: rocketleague.exe
+11:56:08 AM.269: 	Bit depth: 24
+11:56:08 AM.269: 	Found proper GLXFBConfig (in 288): yes
+11:56:08 AM.269: 
+11:56:20 AM.351: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+11:56:20 AM.352: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+11:56:20 AM.352: 	title: Rocket League (64-bit, DX11, Cooked)
+11:56:20 AM.352: 	class: rocketleague.exe
+11:56:20 AM.352: 	Bit depth: 24
+11:56:20 AM.352: 	Found proper GLXFBConfig (in 288): yes
+11:56:20 AM.352: 
+11:56:21 AM.568: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+11:56:21 AM.569: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+11:56:21 AM.569: 	title: Rocket League (64-bit, DX11, Cooked)
+11:56:21 AM.569: 	class: rocketleague.exe
+11:56:21 AM.569: 	Bit depth: 24
+11:56:21 AM.569: 	Found proper GLXFBConfig (in 288): yes
+11:56:21 AM.569: 
+11:56:26 AM.170: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+11:56:26 AM.170: 	title: Rocket League (64-bit, DX11, Cooked)
+11:56:26 AM.170: 	class: rocketleague.exe
+11:56:26 AM.170: 	Bit depth: 24
+11:56:26 AM.170: 	Found proper GLXFBConfig (in 288): yes
+11:56:26 AM.170: 
+11:57:52 AM.282: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/home/asito/Videos/obs/Clip_2022-02-23_11-57-52.mkv'
+11:58:36 AM.855: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+11:58:36 AM.855: 	title: Rocket League (64-bit, DX11, Cooked)
+11:58:36 AM.855: 	class: rocketleague.exe
+11:58:36 AM.855: 	Bit depth: 24
+11:58:36 AM.855: 	Found proper GLXFBConfig (in 288): yes
+11:58:36 AM.855: 
+11:59:31 AM.896: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/home/asito/Videos/obs/Clip_2022-02-23_11-59-31.mkv'
+12:13:55 PM.519: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:13:55 PM.519: 	title: Rocket League (64-bit, DX11, Cooked)
+12:13:55 PM.519: 	class: rocketleague.exe
+12:13:55 PM.519: 	Bit depth: 24
+12:13:55 PM.519: 	Found proper GLXFBConfig (in 288): yes
+12:13:55 PM.519: 
+12:13:56 PM.436: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:13:56 PM.436: 	title: Rocket League (64-bit, DX11, Cooked)
+12:13:56 PM.436: 	class: rocketleague.exe
+12:13:56 PM.436: 	Bit depth: 24
+12:13:56 PM.436: 	Found proper GLXFBConfig (in 288): yes
+12:13:56 PM.436: 
+12:13:56 PM.452: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:13:56 PM.452: 	title: Rocket League (64-bit, DX11, Cooked)
+12:13:56 PM.452: 	class: rocketleague.exe
+12:13:56 PM.452: 	Bit depth: 24
+12:13:56 PM.452: 	Found proper GLXFBConfig (in 288): yes
+12:13:56 PM.452: 
+12:14:01 PM.553: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:01 PM.553: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:01 PM.553: 	class: rocketleague.exe
+12:14:01 PM.553: 	Bit depth: 24
+12:14:01 PM.553: 	Found proper GLXFBConfig (in 288): yes
+12:14:01 PM.553: 
+12:14:02 PM.636: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:02 PM.636: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:02 PM.636: 	class: rocketleague.exe
+12:14:02 PM.636: 	Bit depth: 24
+12:14:02 PM.636: 	Found proper GLXFBConfig (in 288): yes
+12:14:02 PM.636: 
+12:14:03 PM.186: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:03 PM.186: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:03 PM.186: 	class: rocketleague.exe
+12:14:03 PM.186: 	Bit depth: 24
+12:14:03 PM.186: 	Found proper GLXFBConfig (in 288): yes
+12:14:03 PM.186: 
+12:14:03 PM.435: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:03 PM.435: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:03 PM.435: 	class: rocketleague.exe
+12:14:03 PM.435: 	Bit depth: 24
+12:14:03 PM.435: 	Found proper GLXFBConfig (in 288): yes
+12:14:03 PM.435: 
+12:14:09 PM.653: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:09 PM.653: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:09 PM.653: 	class: rocketleague.exe
+12:14:09 PM.653: 	Bit depth: 24
+12:14:09 PM.653: 	Found proper GLXFBConfig (in 288): yes
+12:14:09 PM.653: 
+12:14:13 PM.520: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:13 PM.520: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:13 PM.520: 	class: rocketleague.exe
+12:14:13 PM.520: 	Bit depth: 24
+12:14:13 PM.520: 	Found proper GLXFBConfig (in 288): yes
+12:14:13 PM.520: 
+12:14:16 PM.153: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:16 PM.153: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:16 PM.153: 	class: rocketleague.exe
+12:14:16 PM.153: 	Bit depth: 24
+12:14:16 PM.153: 	Found proper GLXFBConfig (in 288): yes
+12:14:16 PM.153: 
+12:14:17 PM.369: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:17 PM.369: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:17 PM.369: 	class: rocketleague.exe
+12:14:17 PM.369: 	Bit depth: 24
+12:14:17 PM.369: 	Found proper GLXFBConfig (in 288): yes
+12:14:17 PM.369: 
+12:14:22 PM.386: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:22 PM.386: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:22 PM.386: 	class: rocketleague.exe
+12:14:22 PM.386: 	Bit depth: 24
+12:14:22 PM.386: 	Found proper GLXFBConfig (in 288): yes
+12:14:22 PM.386: 
+12:14:43 PM.919: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:14:43 PM.919: 	title: Rocket League (64-bit, DX11, Cooked)
+12:14:43 PM.919: 	class: rocketleague.exe
+12:14:43 PM.919: 	Bit depth: 24
+12:14:43 PM.919: 	Found proper GLXFBConfig (in 288): yes
+12:14:43 PM.919: 
+12:16:38 PM.453: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:16:38 PM.453: 	title: Rocket League (64-bit, DX11, Cooked)
+12:16:38 PM.453: 	class: rocketleague.exe
+12:16:38 PM.453: 	Bit depth: 24
+12:16:38 PM.453: 	Found proper GLXFBConfig (in 288): yes
+12:16:38 PM.453: 
+12:17:19 PM.069: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:19 PM.069: 	title: Rocket League (64-bit, DX11, Cooked)
+12:17:19 PM.069: 	class: rocketleague.exe
+12:17:19 PM.069: 	Bit depth: 24
+12:17:19 PM.069: 	Found proper GLXFBConfig (in 288): yes
+12:17:19 PM.069: 
+12:17:48 PM.385: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:48 PM.385: 	title: Rocket League (64-bit, DX11, Cooked)
+12:17:48 PM.385: 	class: rocketleague.exe
+12:17:48 PM.385: 	Bit depth: 24
+12:17:48 PM.385: 	Found proper GLXFBConfig (in 288): yes
+12:17:48 PM.385: 
+12:17:50 PM.818: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+12:17:50 PM.819: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:50 PM.819: 	title: Rocket League (64-bit, DX11, Cooked)
+12:17:50 PM.819: 	class: rocketleague.exe
+12:17:50 PM.819: 	Bit depth: 24
+12:17:50 PM.819: 	Found proper GLXFBConfig (in 288): yes
+12:17:50 PM.819: 
+12:17:56 PM.503: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:17:56 PM.503: 	title: Rocket League (64-bit, DX11, Cooked)
+12:17:56 PM.503: 	class: rocketleague.exe
+12:17:56 PM.503: 	Bit depth: 24
+12:17:56 PM.503: 	Found proper GLXFBConfig (in 288): yes
+12:17:56 PM.503: 
+12:20:22 PM.218: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+12:20:22 PM.219: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:20:22 PM.219: 	title: Rocket League (64-bit, DX11, Cooked)
+12:20:22 PM.219: 	class: rocketleague.exe
+12:20:22 PM.219: 	Bit depth: 24
+12:20:22 PM.219: 	Found proper GLXFBConfig (in 288): yes
+12:20:22 PM.219: 
+12:20:23 PM.585: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+12:20:23 PM.586: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:20:23 PM.586: 	title: Rocket League (64-bit, DX11, Cooked)
+12:20:23 PM.586: 	class: rocketleague.exe
+12:20:23 PM.586: 	Bit depth: 24
+12:20:23 PM.586: 	Found proper GLXFBConfig (in 288): yes
+12:20:23 PM.586: 
+12:20:30 PM.053: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:20:30 PM.053: 	title: Rocket League (64-bit, DX11, Cooked)
+12:20:30 PM.053: 	class: rocketleague.exe
+12:20:30 PM.053: 	Bit depth: 24
+12:20:30 PM.053: 	Found proper GLXFBConfig (in 288): yes
+12:20:30 PM.053: 
+12:20:31 PM.636: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:20:31 PM.636: 	title: Rocket League (64-bit, DX11, Cooked)
+12:20:31 PM.636: 	class: rocketleague.exe
+12:20:31 PM.636: 	Bit depth: 24
+12:20:31 PM.636: 	Found proper GLXFBConfig (in 288): yes
+12:20:31 PM.636: 
+12:20:51 PM.036: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:20:51 PM.036: 	title: Rocket League (64-bit, DX11, Cooked)
+12:20:51 PM.036: 	class: rocketleague.exe
+12:20:51 PM.036: 	Bit depth: 24
+12:20:51 PM.036: 	Found proper GLXFBConfig (in 288): yes
+12:20:51 PM.036: 
+12:22:42 PM.886: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:22:42 PM.886: 	title: Rocket League (64-bit, DX11, Cooked)
+12:22:42 PM.886: 	class: rocketleague.exe
+12:22:42 PM.886: 	Bit depth: 24
+12:22:42 PM.886: 	Found proper GLXFBConfig (in 288): yes
+12:22:42 PM.886: 
+12:23:19 PM.079: Settings changed (hotkeys)
+12:23:19 PM.079: ------------------------------------------------
+12:23:21 PM.304: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:23:21 PM.304: 	title: Rocket League (64-bit, DX11, Cooked)
+12:23:21 PM.304: 	class: rocketleague.exe
+12:23:21 PM.304: 	Bit depth: 24
+12:23:21 PM.304: 	Found proper GLXFBConfig (in 288): yes
+12:23:21 PM.304: 
+12:27:29 PM.820: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:27:29 PM.820: 	title: Rocket League (64-bit, DX11, Cooked)
+12:27:29 PM.820: 	class: rocketleague.exe
+12:27:29 PM.820: 	Bit depth: 24
+12:27:29 PM.820: 	Found proper GLXFBConfig (in 288): yes
+12:27:29 PM.820: 
+12:33:35 PM.571: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:33:35 PM.571: 	title: Rocket League (64-bit, DX11, Cooked)
+12:33:35 PM.571: 	class: rocketleague.exe
+12:33:35 PM.571: 	Bit depth: 24
+12:33:35 PM.571: 	Found proper GLXFBConfig (in 288): yes
+12:33:35 PM.571: 
+12:51:31 PM.903: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:51:31 PM.903: 	title: Rocket League (64-bit, DX11, Cooked)
+12:51:31 PM.903: 	class: rocketleague.exe
+12:51:31 PM.903: 	Bit depth: 24
+12:51:31 PM.903: 	Found proper GLXFBConfig (in 288): yes
+12:51:31 PM.903: 
+12:52:28 PM.370: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+12:52:28 PM.370: 	title: Rocket League (64-bit, DX11, Cooked)
+12:52:28 PM.370: 	class: rocketleague.exe
+12:52:28 PM.370: 	Bit depth: 24
+12:52:28 PM.370: 	Found proper GLXFBConfig (in 288): yes
+12:52:28 PM.370: 
+01:26:21 PM.527: xcompcap: Unable to query window list because window manager does not support extended window manager Hints
+01:26:21 PM.528: xcompcap: Unable to query window list because window manager does not support extended window manager Hints
+01:26:22 PM.035: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:26:22 PM.035: 	title: Rocket League (64-bit, DX11, Cooked)
+01:26:22 PM.035: 	class: rocketleague.exe
+01:26:22 PM.035: 	Bit depth: 24
+01:26:22 PM.035: 	Found proper GLXFBConfig (in 288): yes
+01:26:22 PM.035: 
+01:26:22 PM.051: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+01:26:22 PM.052: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:26:22 PM.052: 	title: Rocket League (64-bit, DX11, Cooked)
+01:26:22 PM.052: 	class: rocketleague.exe
+01:26:22 PM.052: 	Bit depth: 24
+01:26:22 PM.052: 	Found proper GLXFBConfig (in 288): yes
+01:26:22 PM.052: 
+01:26:56 PM.954: xcompcap: Unable to query window list because window manager does not support extended window manager Hints
+01:26:56 PM.954: xcompcap: Unable to query window list because window manager does not support extended window manager Hints
+01:26:57 PM.468: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+01:26:57 PM.469: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:26:57 PM.469: 	title: Rocket League (64-bit, DX11, Cooked)
+01:26:57 PM.469: 	class: rocketleague.exe
+01:26:57 PM.469: 	Bit depth: 24
+01:26:57 PM.469: 	Found proper GLXFBConfig (in 288): yes
+01:26:57 PM.469: 
+01:26:57 PM.485: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+01:26:57 PM.485: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+01:26:57 PM.485: 	title: Rocket League (64-bit, DX11, Cooked)
+01:26:57 PM.485: 	class: rocketleague.exe
+01:26:57 PM.485: 	Bit depth: 24
+01:26:57 PM.485: 	Found proper GLXFBConfig (in 288): yes
+01:26:57 PM.485: 

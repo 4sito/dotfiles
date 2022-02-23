@@ -79,11 +79,12 @@ exec_always thunar --daemon
 # setting variables
 
 # Rocket League game binary
-set $rocket legendary launch Sugar
+set $rocket export WINEFSYNC=1 && legendary launch Sugar --wine ~/.config/heroic/tools/wine/lutris-ge/bin/wine --wine-prefix ~/Games/Heroic/Prefixes/Rocket-League®
 
+set $bakkes bash -c 'WINEPREFIX=~/Games/Heroic/Prefixes/Rocket-League® ~/.config/heroic/tools/wine/lutris-ge/bin/wine c:/Program\ Files/BakkesMod/BakkesMod.exe'
 
 #background variable
-set $bg1 /home/asito/Pictures/wp/clean_reflection.jpg
+set $bg1 /home/asito/Pictures/clean_reflection.jpg
 
 
 
@@ -116,7 +117,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Media player controls
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
-bindsym XF86MonBrightnessDown exec playerctl play
+bindsym XF86MonBrightnessDowo exec playerctl play
 bindsym XF86MonBrightnessUp exec playerctl pause
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -167,7 +168,9 @@ bindsym $mod2+$mod+3 exec flameshot full -p $screen_p
 bindsym $mod2+$mod+4 exec flameshot gui -p $screen_p
 
 # launch rocket league
-bindsym $mod2+g exec $rocket
+bindsym $mod2+g exec $rocket 
+bindsym $mod2+b exec $bakkes
+
 # start dmenu (a program launcher)
 #bindsym $mod+Tab exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
@@ -376,15 +379,19 @@ gaps outer -5
 
 # no window title
 for_window [class="^.*"] border pixel 2
+for_window [class="bakkesmod.exe"] floating enable
 
-#assigning apps to thei workspace
+#assigning apps to thei workspace, to quickly get info about a window use the xprop command
 assign [class="Alacritty"] → 1
-assign [class="firefox"] →   2
-assign [class="Thunar"] →    3
-assign [class="Evince"] →    4
-assign [class="Spotify"] →   4
+assign [class="firefox"]   → 2
+assign [class="Thunar"]    → 3
+assign [class="Evince"]    → 4
+assign [class="spotify"]   → 4
 assign [class="rocketleague.exe"] → 5 
-
+assign [class="obs"]           → 6
+assign [class="heroic"]        → 6
+assign [class="bakkesmod.exe"] → 6
+assign [class="explorer.exe"]  → 6
 new_float normal 0
 
 

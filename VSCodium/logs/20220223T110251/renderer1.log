@@ -1,0 +1,17 @@
+[2022-02-23 11:02:53.323] [renderer1] [info] IExtensionHostStarter.start() took 110 ms.
+[2022-02-23 11:02:53.593] [renderer1] [error] [Extension Host] (node:33232) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-02-23 11:02:56.833] [renderer1] [error] Cannot read property 'length' of undefined: TypeError: Cannot read property 'length' of undefined
+    at v.next (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:68:71662)
+    at v.reset (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:68:71548)
+    at d._delete (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:68:76997)
+    at d._delete (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:68:77386)
+    at delete (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:68:76907)
+    at vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:573:41773
+    at o.fire (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:67:1712)
+    at x.triggerConfigurationChange (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1896:42557)
+    at x.onLocalUserConfigurationChanged (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1896:35757)
+    at x.reloadLocalUserConfiguration (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1896:33039)
+    at async Promise.all (index 0)
+    at async Object.X [as settled] (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:75:23186)
+    at async x.updateValue (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1896:27260)
