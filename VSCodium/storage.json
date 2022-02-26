@@ -41,6 +41,20 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/asito/Games/Heroic/Prefixes/Rocket-League%C2%AE/drive_c/users/asito/AppData/Roaming/bakkesmod/bakkesmod/maps/Noob_Dribble__By_dmc/Noob_Dribble__By_dmc.json",
+                                        "path": "/home/asito/Games/Heroic/Prefixes/Rocket-League®/drive_c/users/asito/AppData/Roaming/bakkesmod/bakkesmod/maps/Noob_Dribble__By_dmc/Noob_Dribble__By_dmc.json",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Games/Heroic/Prefixes/Rocket-League®/drive_c/users/asito/AppData/Roaming/bakkesmod/bakkesmod/maps/Noob_Dribble__By_dmc/Noob_Dribble__By_dmc.json"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openRecent",
                                     "label": "&&More..."
                                 },
@@ -470,6 +484,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -558,8 +579,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -1237,6 +1257,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1486,7 +1511,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/asito/.config/VSCodium/Backups/1645610572566",
+            "backupPath": "/home/asito/.config/VSCodium/Backups/1645632589522",
             "uiState": {
                 "mode": 1,
                 "x": 1294,

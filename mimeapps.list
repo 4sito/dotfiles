@@ -18,6 +18,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=nvim.des
 image/jpeg=imv.desktop;imv-folder.desktop;
 text/x-log=org.gnome.gitlab.somas.Apostrophe.desktop;
 video/x-matroska=mpv.desktop;vlc.desktop;blender.desktop;
+application/json=vscodium.desktop;org.gnome.gitlab.somas.Apostrophe.desktop;
 
 [Default Applications]
 x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop

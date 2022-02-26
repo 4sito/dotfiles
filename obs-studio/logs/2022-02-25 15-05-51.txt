@@ -1,0 +1,263 @@
+03:05:51 PM.620: CPU Name: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+03:05:51 PM.620: CPU Speed: 3999.862MHz
+03:05:51 PM.620: Physical Cores: 6, Logical Cores: 12
+03:05:51 PM.620: Physical Memory: 15849MB Total, 10307MB Free
+03:05:51 PM.620: Kernel Version: Linux 5.16.10-zen1-1-zen
+03:05:51 PM.620: Distribution: "Arch Linux" Unknown
+03:05:51 PM.620: Session Type: x11
+03:05:51 PM.620: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+03:05:51 PM.621: Portable mode: false
+03:05:51 PM.678: OBS 27.1.3-4 (linux)
+03:05:51 PM.678: ---------------------------------
+03:05:51 PM.678: ---------------------------------
+03:05:51 PM.678: audio settings reset:
+03:05:51 PM.678: 	samples per sec: 48000
+03:05:51 PM.678: 	speakers:        2
+03:05:51 PM.681: ---------------------------------
+03:05:51 PM.681: Initializing OpenGL...
+03:05:51 PM.743: Loading up OpenGL on adapter AMD AMD Radeon RX 580 Series (POLARIS10, DRM 3.44.0, 5.16.10-zen1-1-zen, LLVM 13.0.1)
+03:05:51 PM.743: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.3.6, shading language 4.60
+03:05:51 PM.759: ---------------------------------
+03:05:51 PM.759: video settings reset:
+03:05:51 PM.759: 	base resolution:   2560x1440
+03:05:51 PM.759: 	output resolution: 1920x1080
+03:05:51 PM.759: 	downscale filter:  Bicubic
+03:05:51 PM.759: 	fps:               60/1
+03:05:51 PM.759: 	format:            NV12
+03:05:51 PM.759: 	YUV mode:          709/Partial
+03:05:51 PM.759: NV12 texture support not available
+03:05:51 PM.763: Audio monitoring device:
+03:05:51 PM.763: 	name: Default
+03:05:51 PM.763: 	id: default
+03:05:51 PM.763: ---------------------------------
+03:05:51 PM.765: Failed to load 'en-US' text for module: 'decklink-captions.so'
+03:05:51 PM.766: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+03:05:51 PM.855: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+03:05:51 PM.856: No blackmagic support
+03:05:51 PM.865: v4l2loopback not installed, virtual camera disabled
+03:05:51 PM.876: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+03:05:51 PM.876: 
+03:05:51 PM.876: FFMPEG VAAPI supported
+03:05:51 PM.890: ---------------------------------
+03:05:51 PM.890:   Loaded Modules:
+03:05:51 PM.890:     text-freetype2.so
+03:05:51 PM.890:     sndio.so
+03:05:51 PM.890:     rtmp-services.so
+03:05:51 PM.890:     obs-x264.so
+03:05:51 PM.890:     obs-transitions.so
+03:05:51 PM.890:     obs-outputs.so
+03:05:51 PM.890:     obs-libfdk.so
+03:05:51 PM.890:     obs-filters.so
+03:05:51 PM.890:     obs-ffmpeg.so
+03:05:51 PM.890:     linux-v4l2.so
+03:05:51 PM.890:     linux-pulseaudio.so
+03:05:51 PM.890:     linux-jack.so
+03:05:51 PM.890:     linux-decklink.so
+03:05:51 PM.890:     linux-capture.so
+03:05:51 PM.890:     linux-alsa.so
+03:05:51 PM.890:     image-source.so
+03:05:51 PM.890:     frontend-tools.so
+03:05:51 PM.890:     decklink-ouput-ui.so
+03:05:51 PM.890:     decklink-captions.so
+03:05:51 PM.890: ---------------------------------
+03:05:51 PM.890: ==== Startup complete ===============================================
+03:05:51 PM.894: All scene data cleared
+03:05:51 PM.894: ------------------------------------------------
+03:05:51 PM.901: pulse-input: Server name: 'pulseaudio 15.0'
+03:05:51 PM.901: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:05:51 PM.901: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+03:05:51 PM.901: [Loaded global audio device]: 'Desktop Audio'
+03:05:51 PM.901: pulse-input: Server name: 'pulseaudio 15.0'
+03:05:51 PM.901: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:05:51 PM.902: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+03:05:51 PM.902: [Loaded global audio device]: 'Mic/Aux'
+03:05:51 PM.902: xshm-input: Geometry 2560x1440 @ 0,0
+03:05:51 PM.928: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:05:51 PM.928: 	title: Rocket League (64-bit, DX11, Cooked)
+03:05:51 PM.928: 	class: rocketleague.exe
+03:05:51 PM.928: 	Bit depth: 24
+03:05:51 PM.928: 	Found proper GLXFBConfig (in 288): yes
+03:05:51 PM.928: 
+03:05:51 PM.928: Switched to scene 'Scene'
+03:05:51 PM.928: ------------------------------------------------
+03:05:51 PM.928: Loaded scenes:
+03:05:51 PM.928: - scene 'Scene':
+03:05:51 PM.929:     - source: 'Screen Capture (XSHM)' (xshm_input)
+03:05:51 PM.929:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+03:05:51 PM.929: ------------------------------------------------
+03:05:52 PM.328: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+03:05:52 PM.328: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:05:52 PM.328: 	title: Rocket League (64-bit, DX11, Cooked)
+03:05:52 PM.328: 	class: rocketleague.exe
+03:05:52 PM.328: 	Bit depth: 24
+03:05:52 PM.328: 	Found proper GLXFBConfig (in 288): yes
+03:05:52 PM.328: 
+03:05:52 PM.479: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+03:05:52 PM.479: 
+03:05:55 PM.645: xcompcap: cleanup glXDestroyPixmap failed: BadPixmap (invalid Pixmap parameter)
+03:05:55 PM.646: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:05:55 PM.646: 	title: Rocket League (64-bit, DX11, Cooked)
+03:05:55 PM.646: 	class: rocketleague.exe
+03:05:55 PM.646: 	Bit depth: 24
+03:05:55 PM.646: 	Found proper GLXFBConfig (in 288): yes
+03:05:55 PM.646: 
+03:06:00 PM.219: ---------------------------------
+03:06:00 PM.219: [x264 encoder: 'recording_h264'] preset: veryfast
+03:06:00 PM.219: [x264 encoder: 'recording_h264'] settings:
+03:06:00 PM.219: 	rate_control: CBR
+03:06:00 PM.219: 	bitrate:      25000
+03:06:00 PM.219: 	buffer size:  25000
+03:06:00 PM.219: 	crf:          23
+03:06:00 PM.219: 	fps_num:      60
+03:06:00 PM.219: 	fps_den:      1
+03:06:00 PM.219: 	width:        1920
+03:06:00 PM.219: 	height:       1080
+03:06:00 PM.219: 	keyint:       250
+03:06:00 PM.219: 
+03:06:00 PM.231: libfdk_aac encoder created
+03:06:00 PM.231: libfdk_aac bitrate: 160, channels: 2
+03:06:00 PM.231: ==== Replay Buffer Start ===========================================
+03:06:01 PM.579: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:06:01 PM.579: 	title: Rocket League (64-bit, DX11, Cooked)
+03:06:01 PM.579: 	class: rocketleague.exe
+03:06:01 PM.579: 	Bit depth: 24
+03:06:01 PM.579: 	Found proper GLXFBConfig (in 288): yes
+03:06:01 PM.579: 
+03:06:04 PM.429: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:06:04 PM.429: 	title: Rocket League (64-bit, DX11, Cooked)
+03:06:04 PM.429: 	class: rocketleague.exe
+03:06:04 PM.429: 	Bit depth: 24
+03:06:04 PM.429: 	Found proper GLXFBConfig (in 288): yes
+03:06:04 PM.429: 
+03:07:08 PM.581: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:07:08 PM.581: 	title: Rocket League (64-bit, DX11, Cooked)
+03:07:08 PM.581: 	class: rocketleague.exe
+03:07:08 PM.581: 	Bit depth: 24
+03:07:08 PM.581: 	Found proper GLXFBConfig (in 288): yes
+03:07:08 PM.581: 
+03:07:09 PM.480: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:07:09 PM.480: 	title: Rocket League (64-bit, DX11, Cooked)
+03:07:09 PM.480: 	class: rocketleague.exe
+03:07:09 PM.480: 	Bit depth: 24
+03:07:09 PM.480: 	Found proper GLXFBConfig (in 288): yes
+03:07:09 PM.480: 
+03:07:18 PM.699: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:07:18 PM.699: 	title: Rocket League (64-bit, DX11, Cooked)
+03:07:18 PM.699: 	class: rocketleague.exe
+03:07:18 PM.699: 	Bit depth: 24
+03:07:18 PM.699: 	Found proper GLXFBConfig (in 288): yes
+03:07:18 PM.699: 
+03:07:19 PM.887: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:07:19 PM.887: 	title: Rocket League (64-bit, DX11, Cooked)
+03:07:19 PM.887: 	class: rocketleague.exe
+03:07:19 PM.887: 	Bit depth: 24
+03:07:19 PM.887: 	Found proper GLXFBConfig (in 288): yes
+03:07:19 PM.887: 
+03:08:29 PM.005: [ffmpeg muxer: 'Replay Buffer'] Wrote replay buffer to '/home/asito/Videos/obs/Clip_2022-02-25_15-08-28.mkv'
+03:46:39 PM.332: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+03:46:39 PM.332: 	title: Rocket League (64-bit, DX11, Cooked)
+03:46:39 PM.332: 	class: rocketleague.exe
+03:46:39 PM.332: 	Bit depth: 24
+03:46:39 PM.332: 	Found proper GLXFBConfig (in 288): yes
+03:46:39 PM.332: 
+04:09:09 PM.229: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:09:09 PM.229: 	title: Rocket League (64-bit, DX11, Cooked)
+04:09:09 PM.229: 	class: rocketleague.exe
+04:09:09 PM.229: 	Bit depth: 24
+04:09:09 PM.229: 	Found proper GLXFBConfig (in 288): yes
+04:09:09 PM.229: 
+05:51:47 PM.146: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+05:51:47 PM.146: 	title: Rocket League (64-bit, DX11, Cooked)
+05:51:47 PM.146: 	class: rocketleague.exe
+05:51:47 PM.146: 	Bit depth: 24
+05:51:47 PM.146: 	Found proper GLXFBConfig (in 288): yes
+05:51:47 PM.146: 
+05:51:51 PM.893: ==== Shutting down ==================================================
+05:51:51 PM.897: X Error: BadWindow (invalid Window parameter), Major opcode: BadValue (integer parameter out of range for operation), Minor opcode: 0, Serial: 2390306
+05:51:51 PM.898: X Error: BadWindow (invalid Window parameter), Major opcode: 142, Minor opcode: BadWindow (invalid Window parameter), Serial: 2390307
+05:51:51 PM.898: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+05:51:51 PM.898: pulse-input: Got 9759583 packets with 439236081 frames
+05:51:51 PM.898: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+05:51:51 PM.898: pulse-input: Got 484474 packets with 439235344 frames
+05:51:51 PM.898: All scene data cleared
+05:51:51 PM.898: ------------------------------------------------
+05:51:51 PM.911: Failed to fetch parent window geometry!
+05:51:51 PM.911: Failed to fetch parent window geometry!
+05:51:51 PM.911: Failed to fetch parent window geometry!
+05:51:51 PM.911: Failed to fetch parent window geometry!
+05:51:51 PM.912: Output 'Replay Buffer': stopping
+05:51:51 PM.912: Output 'Replay Buffer': Total frames output: 597067
+05:51:51 PM.912: Output 'Replay Buffer': Total drawn frames: 597100 (597101 attempted)
+05:51:51 PM.912: Output 'Replay Buffer': Number of lagged frames due to rendering lag/stalls: 1 (0.0%)
+05:51:51 PM.922: libfdk_aac encoder destroyed
+05:51:51 PM.959: [Scripting] Total detached callbacks: 0
+05:51:51 PM.959: Freeing OBS context data
+05:51:51 PM.966: == Profiler Results =============================
+05:51:51 PM.966: run_program_init: 455.946 ms
+05:51:51 PM.966:  ┣OBSApp::AppInit: 4.34 ms
+05:51:51 PM.966:  ┃ ┗OBSApp::InitLocale: 2.296 ms
+05:51:51 PM.966:  ┗OBSApp::OBSInit: 392.578 ms
+05:51:51 PM.966:    ┣obs_startup: 12.558 ms
+05:51:51 PM.966:    ┗OBSBasic::OBSInit: 322.571 ms
+05:51:51 PM.966:      ┣OBSBasic::InitBasicConfig: 0.072 ms
+05:51:51 PM.966:      ┣OBSBasic::ResetAudio: 0.096 ms
+05:51:51 PM.966:      ┣OBSBasic::ResetVideo: 84.404 ms
+05:51:51 PM.966:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+05:51:51 PM.966:      ┣OBSBasic::InitHotkeys: 0.029 ms
+05:51:51 PM.966:      ┣obs_load_all_modules: 126.778 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(decklink-captions.so): 0.019 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.465 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(frontend-tools.so): 76.862 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(linux-capture.so): 0.17 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(linux-decklink.so): 0.071 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(linux-v4l2.so): 2.806 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(obs-ffmpeg.so): 1.813 ms
+05:51:51 PM.966:      ┃ ┃ ┗nvenc_check: 1.803 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(obs-filters.so): 0.011 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(obs-libfdk.so): 0 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(obs-outputs.so): 0.001 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(obs-transitions.so): 0.003 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(rtmp-services.so): 0.984 ms
+05:51:51 PM.966:      ┃ ┣obs_init_module(sndio.so): 0.001 ms
+05:51:51 PM.966:      ┃ ┗obs_init_module(text-freetype2.so): 0.008 ms
+05:51:51 PM.966:      ┣OBSBasic::ResetOutputs: 0.74 ms
+05:51:51 PM.966:      ┣OBSBasic::CreateHotkeys: 0.024 ms
+05:51:51 PM.966:      ┣OBSBasic::InitService: 1.067 ms
+05:51:51 PM.966:      ┣OBSBasic::InitPrimitives: 0.084 ms
+05:51:51 PM.966:      ┗OBSBasic::Load: 60.672 ms
+05:51:51 PM.966: obs_hotkey_thread(25 ms): min=0.058 ms, median=0.1 ms, max=16.636 ms, 99th percentile=0.55 ms, 100% below 25 ms
+05:51:51 PM.966: audio_thread(Audio): min=0 ms, median=0.345 ms, max=3.153 ms, 99th percentile=0.594 ms
+05:51:51 PM.966:  ┗receive_audio: min=0.001 ms, median=0.303 ms, max=3.087 ms, 99th percentile=0.478 ms
+05:51:51 PM.966:    ┣buffer_audio: min=0 ms, median=0 ms, max=0.262 ms, 99th percentile=0.001 ms
+05:51:51 PM.966:    ┗do_encode: min=0.109 ms, median=0.302 ms, max=3.083 ms, 99th percentile=0.475 ms
+05:51:51 PM.966:      ┣encode(Track1): min=0.105 ms, median=0.298 ms, max=3.076 ms, 99th percentile=0.47 ms
+05:51:51 PM.966:      ┗send_packet: min=0 ms, median=0.002 ms, max=0.553 ms, 99th percentile=0.006 ms
+05:51:51 PM.966: obs_graphics_thread(16.6667 ms): min=0.056 ms, median=0.76 ms, max=26.963 ms, 99th percentile=1.598 ms, 99.9987% below 16.667 ms
+05:51:51 PM.966:  ┣tick_sources: min=0 ms, median=0.124 ms, max=13.657 ms, 99th percentile=0.326 ms
+05:51:51 PM.966:  ┣output_frame: min=0.041 ms, median=0.405 ms, max=8.35 ms, 99th percentile=0.609 ms
+05:51:51 PM.966:  ┃ ┣gs_context(video->graphics): min=0.041 ms, median=0.175 ms, max=8.132 ms, 99th percentile=0.296 ms
+05:51:51 PM.966:  ┃ ┃ ┣render_video: min=0.011 ms, median=0.103 ms, max=2.182 ms, 99th percentile=0.164 ms
+05:51:51 PM.966:  ┃ ┃ ┃ ┣render_main_texture: min=0.009 ms, median=0.058 ms, max=2.125 ms, 99th percentile=0.092 ms
+05:51:51 PM.966:  ┃ ┃ ┃ ┣render_output_texture: min=0.01 ms, median=0.013 ms, max=0.697 ms, 99th percentile=0.025 ms
+05:51:51 PM.966:  ┃ ┃ ┃ ┣render_convert_texture: min=0.013 ms, median=0.016 ms, max=0.971 ms, 99th percentile=0.029 ms
+05:51:51 PM.966:  ┃ ┃ ┃ ┗stage_output_texture: min=0.008 ms, median=0.01 ms, max=0.671 ms, 99th percentile=0.018 ms
+05:51:51 PM.966:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.004 ms, max=0.603 ms, 99th percentile=0.006 ms
+05:51:51 PM.966:  ┃ ┃ ┗download_frame: min=0 ms, median=0.03 ms, max=7.992 ms, 99th percentile=0.049 ms
+05:51:51 PM.966:  ┃ ┗output_video_data: min=0.165 ms, median=0.225 ms, max=4.057 ms, 99th percentile=0.343 ms
+05:51:51 PM.966:  ┗render_displays: min=0.002 ms, median=0.194 ms, max=20.476 ms, 99th percentile=0.685 ms
+05:51:51 PM.966: video_thread(video): min=0.933 ms, median=1.228 ms, max=26.215 ms, 99th percentile=1.796 ms
+05:51:51 PM.966:  ┗receive_video: min=0.932 ms, median=1.227 ms, max=26.214 ms, 99th percentile=1.795 ms
+05:51:51 PM.966:    ┗do_encode: min=0.931 ms, median=1.227 ms, max=26.213 ms, 99th percentile=1.794 ms
+05:51:51 PM.966:      ┣encode(recording_h264): min=0.927 ms, median=1.219 ms, max=26.205 ms, 99th percentile=1.783 ms
+05:51:51 PM.966:      ┗send_packet: min=0.001 ms, median=0.005 ms, max=0.766 ms, 99th percentile=0.02 ms
+05:51:51 PM.966: =================================================
+05:51:51 PM.966: == Profiler Time Between Calls ==================
+05:51:51 PM.966: obs_hotkey_thread(25 ms): min=25.074 ms, median=25.159 ms, max=41.697 ms, 98.4865% within ±2% of 25 ms (0% lower, 1.51346% higher)
+05:51:51 PM.966: obs_graphics_thread(16.6667 ms): min=6.366 ms, median=16.667 ms, max=26.969 ms, 99.8544% within ±2% of 16.667 ms (0.0724554% lower, 0.0731247% higher)
+05:51:51 PM.966: =================================================
+05:51:52 PM.004: Number of memory leaks: 0
