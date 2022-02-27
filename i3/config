@@ -171,7 +171,7 @@ bindsym $mod2+$mod+4 exec flameshot gui -p $screen_p
 bindsym $mod2+g exec $rocket 
 bindsym $mod2+b exec $bakkes
 
-bindsym $mod2+h exec $rocket; exec $bakkes
+bindsym $mod2+h exec $rocket; exec $bakkes ; exec obs
 
 # start dmenu (a program launcher)
 #bindsym $mod+Tab exec --no-startup-id dmenu_run
