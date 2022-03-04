@@ -34,7 +34,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -378,7 +379,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -494,13 +496,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -590,7 +585,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "checked": true
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -627,7 +622,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1213,12 +1209,12 @@
                 "userSettingsLabel": "alt+down"
             },
             "editor.action.insertCursorAbove": {
-                "label": "Shift+Alt+Up",
-                "userSettingsLabel": "shift+alt+up"
+                "label": "Ctrl+Shift+Up",
+                "userSettingsLabel": "ctrl+shift+up"
             },
             "editor.action.insertCursorBelow": {
-                "label": "Shift+Alt+Down",
-                "userSettingsLabel": "shift+alt+down"
+                "label": "Ctrl+Shift+Down",
+                "userSettingsLabel": "ctrl+shift+down"
             },
             "editor.action.insertCursorAtEndOfEachLineSelected": {
                 "label": "Shift+Alt+I",
@@ -1265,11 +1261,6 @@
                 "label": "Ctrl+NumPad0",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1513,7 +1504,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 300,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1523,7 +1514,7 @@
             "backupPath": "/home/asito/.config/VSCodium/Backups/1645632589522",
             "uiState": {
                 "mode": 1,
-                "x": 1294,
+                "x": 21,
                 "y": 55,
                 "width": 1245,
                 "height": 1364
