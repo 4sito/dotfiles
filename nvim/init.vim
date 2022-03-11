@@ -196,7 +196,9 @@ let g:ruby_host_prog = '~/.local/share/gem/ruby/3.0.0/bin/neovim-ruby-host'
 
 command Lat execute "!pdflatex %:t"
 command Comp execute "!gcc -Wall -Wextra -pedantic -o %<.out %"
+command Cppcomp execute "!g++ -Wall -Wextra -pedantic -o %<.out %"
 command Cexec execute "!./%<.out"
+
 
 " Nerd Tree remaps
 nnoremap <C-n> :NERDTree<CR>
@@ -212,6 +214,7 @@ nnoremap <C-o> :Files<CR>
 " compiling
 nnoremap <C-l> :Lat<CR>
 nnoremap <C-c> :Comp<CR>
+nnoremap <C-p> :Cppcomp<CR>
 nnoremap <C-x> :Cexec<CR>
 " inverse search pdf
 
