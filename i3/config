@@ -27,7 +27,7 @@ set $mod2 Control
 
 
 # Font for window titles. Will also be used by the bar unless a different font is used in the bar {} block below.
-font pango:monospace 11
+font pango:monospace 13
 
 #font pango:DejaVu Sans Mono 8
 
@@ -53,8 +53,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id numlockx &
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+# exec --no-startup-id nm-applet
 
+exec_always --no-startup-id "~/.config/i3/tray.sh"
 # picom
 exec_always picom --config ~/.config/picom/picom.conf &
 
@@ -351,17 +352,25 @@ bindsym $mod+r mode "resize"
 exec killall -q polybar
 
 # launch the bar
-exec_always --no-startup-id $HOME/.config/polybar/forest/launch.sh
+# exec_always --no-startup-id $HOME/.config/polybar/forest/launch.sh
 
-#bar  {
-                  
-#    status_command i3status --transparency
+bar  {
+     position top
+     tray_output DisplayPort-1                  
+     # position top
+	   status_command bumblebee-status -m nic disk:root cpu \
+   	 memory date time pasink pasource arch-update \
+		 -p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" nic.states=^down memory.usedonly=true \
+     disk.format={left} disk.open=Thunar \
+     -t solarized-powerline
+}
+
 
 # colors {
 #                background  #131519d3
 #      }
 
-#}
+
 
 
 
