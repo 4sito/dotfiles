@@ -1,0 +1,27 @@
+info:  Game: BakkesMod.exe
+info:  DXVK: v1.9.4
+info:  Built-in extension providers:
+info:    Win32 WSI
+info:    OpenVR
+info:    OpenXR
+info:  OpenVR: could not open registry key, status 2
+info:  OpenVR: Failed to locate module
+info:  Enabled instance extensions:
+info:    VK_KHR_get_surface_capabilities2
+info:    VK_KHR_surface
+info:    VK_KHR_win32_surface
+info:  D3D9: VK_FORMAT_D24_UNORM_S8_UINT -> VK_FORMAT_D32_SFLOAT_S8_UINT
+info:  AMD Radeon RX 580 Series:
+info:    Driver: 2.0.221
+info:    Vulkan: 1.3.208
+info:    Memory Heap[0]: 
+info:      Size: 4096 MiB
+info:      Flags: 0x0
+info:      Memory Type[1]: Property Flags = 0x6
+info:      Memory Type[3]: Property Flags = 0xe
+info:    Memory Heap[1]: 
+info:      Size: 4096 MiB
+info:      Flags: 0x3
+info:      Memory Type[0]: Property Flags = 0x1
+info:      Memory Type[2]: Property Flags = 0x7
+info:  Process set as DPI aware

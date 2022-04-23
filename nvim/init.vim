@@ -51,6 +51,8 @@ Plug 'junegunn/fzf.vim'
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
 
+Plug 'dylanaraps/wal.vim'
+
 " deoplete
 " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 " Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
@@ -95,6 +97,7 @@ set wildmenu
 set foldmethod=marker
 
 set nocompatible
+
 
 "}}}
 
@@ -184,7 +187,7 @@ call plug#end()
 
 "{{{ Color Scheme & Theme
 " this sets the colorscheme
-
+" colorscheme wal
 colorscheme gruvbox-material
 
 "}}}

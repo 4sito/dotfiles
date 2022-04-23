@@ -118,7 +118,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Media player controls
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
-bindsym XF86MonBrightnessDowo exec playerctl play
+bindsym XF86MonBrightnessDown exec playerctl play
 bindsym XF86MonBrightnessUp exec playerctl pause
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -244,16 +244,16 @@ bindsym $mod+a focus parent
 #                                   |_|
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws1  "1:  "
+set $ws2 "2:  "
+set $ws3  "3:  "
+set $ws4  "4:  "
+set $ws5  "5:  "
+set $ws6  "6:  "
+set $ws7  "7:  "
+set $ws8  "8:  "
+set $ws9  "9:  "
+set $ws10  "10:  "
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -359,6 +359,37 @@ bindsym $mod2+m [class="monitoring"] scratchpad show; move position center
 # exec --no-startup-id spotify 
 
 
+#            _
+#   ___ ___ | | ___  _ __ ___
+#  / __/ _ \| |/ _ \| '__/ __|
+# | (_| (_) | | (_) | |  \__ \
+#  \___\___/|_|\___/|_|  |___/
+
+# set_from_resource $fg i3wm.color7 #f0f0f0
+# set_from_resource $bg i3wm.color2 #f0f0f0
+
+set_from_resource $bg background #030808
+set_from_resource $fg foreground #c0c1c1
+
+set_from_resource $color1 color1 #172d30
+set_from_resource $color2 color2 #233732
+set_from_resource $color4 color4 #4a662c
+set_from_resource $color5 color5 #516a35
+set_from_resource $color7 color7 #818383
+set_from_resource $color9 color9 #1f3c41
+
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $color4   $color2
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $fg     $fg     $fg  $fg       $fg
+# client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $color4     $bg     $fg  $color4       $color4
+
+client.background       $fg
+
+# class                 border  backgr. text    indicator child_border
+
+
 #  _
 # | |__   __ _ _ __
 # | '_ \ / _` | '__|
@@ -370,24 +401,27 @@ bindsym $mod2+m [class="monitoring"] scratchpad show; move position center
 exec killall -q polybar
 
 # launch the bar
-# exec_always --no-startup-id $HOME/.config/polybar/forest/launch.sh
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
 
-bar  {
+ bar  {
      position top
      tray_output DisplayPort-1                  
-     # position top
-	   status_command bumblebee-status -m spotify nic disk:root cpu \
-   	 memory date time redshift pasink pasource dunst arch-update \
+	   status_command bumblebee-status -m nic disk:root cpu \
+   	 memory date time pasink pasource arch-update \
 		 -p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" nic.format={ip} \
-     nic.states=^down memory.usedonly=true disk.format={left} disk.open=Thunar spotify.format={title}\
-     -t solarized-powerline
+     nic.states=^down memory.usedonly=true disk.format={left} disk.open=Thunar\
+     -t personal
+
+     colors {
+        background #00000000
+        statusline #00000000
+        separator #00000000
+
+        focused_workspace  $bg $color4 $bg
+        inactive_workspace $bg $bg $color4
+        urgent_workspace   $bg $color2 $bg
+        }
 }
-
-
-# colors {
-#                background  #131519d3
-#      }
-
 
 
 
@@ -407,7 +441,7 @@ gaps outer -5
 
 
 # no window title
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 6
 for_window [class="bakkesmod.exe"] floating enable
 
 #assigning apps to thei workspace, to quickly get info about a window use the xprop command
