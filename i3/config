@@ -147,6 +147,11 @@ bindsym $mod2+f exec thunar
 bindsym $mod+q kill
 bindsym $mod+Shift+w exec xkill
 
+
+# start discord
+
+bindsym $mod+c exec discord
+
 # start spotify 
 # bindsym $mod+m exec spotify
 # lock screen
