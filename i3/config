@@ -378,6 +378,7 @@ set_from_resource $fg foreground #c0c1c1
 
 set_from_resource $color1 color1 #172d30
 set_from_resource $color2 color2 #233732
+set_from_resource $color3 color3 #3e5533
 set_from_resource $color4 color4 #4a662c
 set_from_resource $color5 color5 #516a35
 set_from_resource $color7 color7 #818383
@@ -387,8 +388,8 @@ set_from_resource $color9 color9 #1f3c41
 client.focused          $bg     $bg     $fg  $color4   $color2
 client.focused_inactive $bg     $bg     $fg  $bg       $bg
 client.unfocused        $fg     $fg     $fg  $fg       $fg
-# client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $color4     $bg     $fg  $color4       $color4
+# client.urgent         $bg     $bg     $fg  $bg       $bg
+client.placeholder      $color4 $bg     $fg  $color4   $color4
 
 client.background       $fg
 
@@ -416,12 +417,12 @@ exec killall -q polybar
      -t personal
 
      colors {
-        background $color2
+        background $color3
         statusline #00000000
         separator $color9
 
-        focused_workspace  $bg $color4 $bg
-        inactive_workspace $bg $bg $color4
+        focused_workspace  $bg $color3 $bg
+        inactive_workspace $bg $bg $color3
         urgent_workspace   $bg $color2 $bg
         }
 }
@@ -446,6 +447,7 @@ gaps outer -5
 # no window title
 for_window [class="^.*"] border pixel 6
 for_window [class="bakkesmod.exe"] floating enable
+for_window [class="Spotify"] move to workspace $ws7 
 
 #assigning apps to thei workspace, to quickly get info about a window use the xprop command
 # assign [class="Alacritty"] → 1
@@ -457,6 +459,8 @@ assign [class="rocketleague.exe"] → $ws5
 assign [class="obs"]              → $ws6
 assign [class="heroic"]           → $ws6
 assign [class="bakkesmod.exe"]    → $ws6
+# assign [title='"Spotify"']          → $ws7
+
 # assign [class="explorer.exe"]  → 6
 # assign [con_id="0x3600004"]   → 4
 new_float normal 0
