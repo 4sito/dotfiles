@@ -117,6 +117,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # Media player controls
 bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86MonBrightnessDown exec playerctl play
 bindsym XF86MonBrightnessUp exec playerctl pause
