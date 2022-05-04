@@ -25,3 +25,6 @@
 [2022-05-04 12:40:50.999] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
 [2022-05-04 12:40:51.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
 [2022-05-04 12:40:51.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-05-05 01:21:39.695] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-05-05 01:21:39.703] [exthost] [error] Error: ENOENT: no such file or directory, open '/home/asito/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+[2022-05-05 01:21:39.703] [exthost] [info] Extension host with pid 67015 exiting with code 0
