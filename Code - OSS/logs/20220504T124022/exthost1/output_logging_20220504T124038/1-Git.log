@@ -1,0 +1,6 @@
+[2022-05-04T10:40:41.766Z] Validating found git in: git
+[2022-05-04T10:40:41.774Z] Using git 2.36.0 from git
+[2022-05-04T10:40:41.788Z] > git rev-parse --git-dir [3ms]
+[2022-05-04T10:40:41.792Z] Open repository: /home/asito
+[2022-05-04T10:40:50.208Z] > git ls-files --stage -- /home/asito/raid1guide [1ms]
+[2022-05-04T10:49:23.746Z] > git ls-files --stage -- /home/asito/raid1guide.md [1ms]

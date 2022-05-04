@@ -1,0 +1,29 @@
+[2022-05-04 12:40:23.777] [sharedprocess] [info] Starting worker process with pid 66902 (type: fileWatcher, window: 1).
+[2022-05-04 12:40:26.117] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-05-04 12:40:26.117] [sharedprocess] [info] Getting Manifest... ms-vscode.references-view
+[2022-05-04 12:40:26.953] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-05-04 12:40:26.968] [sharedprocess] [info] Installing extension: ms-vscode.references-view
+[2022-05-04 12:40:27.662] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/asito/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[2022-05-04 12:40:27.684] [sharedprocess] [info] Extracted extension to /home/asito/.vscode-oss/extensions/.d7d9bbee-0852-4404-9be1-a328bb6ece6b: ms-vscode.js-debug-companion
+[2022-05-04 12:40:27.686] [sharedprocess] [info] Downloaded extension: ms-vscode.references-view /home/asito/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.references-view-0.0.89
+[2022-05-04 12:40:27.687] [sharedprocess] [info] Renamed to /home/asito/.vscode-oss/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-05-04 12:40:27.688] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-05-04 12:40:27.690] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-05-04 12:40:27.696] [sharedprocess] [info] Extracted extension to /home/asito/.vscode-oss/extensions/.3b6b634a-c199-43af-a239-0af4aacc5e9f: ms-vscode.references-view
+[2022-05-04 12:40:27.698] [sharedprocess] [info] Renamed to /home/asito/.vscode-oss/extensions/ms-vscode.references-view-0.0.89
+[2022-05-04 12:40:27.698] [sharedprocess] [info] Extracting completed. ms-vscode.references-view
+[2022-05-04 12:40:27.700] [sharedprocess] [info] Extension installed successfully: ms-vscode.references-view
+[2022-05-04 12:40:37.478] [sharedprocess] [info] Worker process with pid 66902 terminated normally (type: fileWatcher, window: 1).
+[2022-05-04 12:40:38.070] [sharedprocess] [info] Starting worker process with pid 67016 (type: fileWatcher, window: 1).
+[2022-05-04 14:04:24.584] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 67016 terminated by itself with code null, signal: SIGSEGV (type: fileWatcher, window: 1)
+[2022-05-04 14:04:24.621] [sharedprocess] [info] Starting worker process with pid 98618 (type: fileWatcher, window: 1).
+[2022-05-04 15:34:23.032] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+[2022-05-04 15:34:23.032] [sharedprocess] [info] Worker process with pid 98618 terminated normally (type: fileWatcher, window: 1).
+[2022-05-04 15:34:23.036] [sharedprocess] [info] Starting worker process with pid 125252 (type: fileWatcher, window: 1).
+[2022-05-04 17:05:09.564] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 125252 terminated by itself with code null, signal: SIGSEGV (type: fileWatcher, window: 1)
+[2022-05-04 17:05:09.600] [sharedprocess] [info] Starting worker process with pid 150192 (type: fileWatcher, window: 1).
+[2022-05-04 18:34:28.060] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 150192 terminated by itself with code null, signal: SIGSEGV (type: fileWatcher, window: 1)
+[2022-05-04 18:34:28.097] [sharedprocess] [info] Starting worker process with pid 175005 (type: fileWatcher, window: 1).
+[2022-05-04 20:04:14.767] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 175005 terminated by itself with code null, signal: SIGSEGV (type: fileWatcher, window: 1)
+[2022-05-04 20:04:14.803] [sharedprocess] [info] Starting worker process with pid 199721 (type: fileWatcher, window: 1).
+[2022-05-05 00:03:40.429] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 199721 terminated by itself with code null, signal: SIGSEGV (type: fileWatcher, window: 1)
