@@ -85,7 +85,7 @@ set $rocket export WINEFSYNC=1 && legendary launch Sugar --wine ~/.config/heroic
 set $bakkes bash -c 'WINEFSYNC=1 WINEPREFIX=~/Games/Heroic/Prefixes/Rocket-League® ~/.config/heroic/tools/wine/lutris-ge/bin/wine c:/Program\ Files/BakkesMod/BakkesMod.exe'
 
 #background variable
-set $bg1 /home/asito/Pictures/felce.jpg
+set $bg1 /home/asito/Pictures/zoey.jpg
 
 
 

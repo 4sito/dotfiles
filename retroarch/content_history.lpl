@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "default_core_path": "",
   "default_core_name": "",
   "label_display_mode": 0,
@@ -7,6 +7,22 @@
   "left_thumbnail_mode": 0,
   "sort_mode": 2,
   "items": [
+    {
+      "path": "/drives/hdd/games/roms/psx/Tekken 3/Tekken 3 (USA).cue",
+      "label": "",
+      "core_path": "/usr/lib/libretro/mednafen_psx_hw_libretro.so",
+      "core_name": "Sony - PlayStation (Beetle PSX HW)",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/drives/hdd/games/roms/wii/Mario Kart Wii (USA) (En,Fr,Es).iso",
+      "label": "",
+      "core_path": "/usr/lib/libretro/dolphin_libretro.so",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "",
+      "db_name": ""
+    },
     {
       "path": "/home/asito/HDD/games/roms/wii/Mario Kart Wii (USA) (En,Fr,Es).iso",
       "label": "Mario Kart Wii (USA)",

@@ -1,0 +1,3 @@
+[2022-05-27 10:37:48.125] [sharedprocess] [info] Starting worker process with pid 163035 (type: fileWatcher, window: 1).
+[2022-05-27 10:58:39.140] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 163035 terminated by itself with code null, signal: SIGSEGV (type: fileWatcher, window: 1)
+[2022-05-27 10:58:39.178] [sharedprocess] [info] Starting worker process with pid 170914 (type: fileWatcher, window: 1).

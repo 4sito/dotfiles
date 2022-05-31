@@ -1,1 +1,1 @@
-{"bitrate":25000}
+{"bitrate":40000,"profile":77,"vaapi_device":"/dev/dri/by-path/pci-0000:01:00.0-render"}

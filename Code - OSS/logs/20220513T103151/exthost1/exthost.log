@@ -1,0 +1,39 @@
+[2022-05-13 10:31:53.321] [exthost] [info] Extension host with pid 4911 started
+[2022-05-13 10:31:53.321] [exthost] [info] Skipping acquiring lock for /home/asito/.config/Code - OSS/User/workspaceStorage/4926f9b18516c94223226c3bcb717a2e.
+[2022-05-13 10:31:53.372] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onWebviewPanel:markdown.preview'
+[2022-05-13 10:31:53.443] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-13 10:31:53.446] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-13 10:31:53.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-13 10:31:53.461] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2022-05-13 10:31:53.580] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-13 10:31:53.633] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-13 10:31:53.728] [exthost] [info] Eager extensions activated
+[2022-05-13 10:31:53.795] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-13 10:31:53.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-13 10:31:53.812] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-05-13 10:31:53.824] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-05-13 12:08:13.975] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-05-13 12:08:14.253] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'M'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at async (/home/asito/.vscode-oss/extensions/vscodevim.vim-1.22.2/src/register/register.ts:357:16)
+    at Object.e.deactivate (/home/asito/.vscode-oss/extensions/vscodevim.vim-1.22.2/extension.ts:64:8)
+    at async Promise.all (index 10)
+    at m._deactivateAll (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:88:10665)
+[2022-05-13 12:08:14.253] [exthost] [info] Extension host with pid 4911 exiting with code 0
+[2022-05-13 12:08:15.376] [exthost] [info] Extension host with pid 39035 started
+[2022-05-13 12:08:15.376] [exthost] [info] Skipping acquiring lock for /home/asito/.config/Code - OSS/User/workspaceStorage/4926f9b18516c94223226c3bcb717a2e.
+[2022-05-13 12:08:15.613] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-13 12:08:15.615] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-13 12:08:15.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-13 12:08:15.632] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-13 12:08:15.648] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-13 12:08:15.681] [exthost] [info] Eager extensions activated
+[2022-05-13 12:08:15.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-13 12:08:15.746] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-13 12:28:25.564] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-05-13 12:28:25.571] [exthost] [info] Extension host with pid 39035 exiting with code 0

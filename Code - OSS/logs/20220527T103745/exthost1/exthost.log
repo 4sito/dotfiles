@@ -1,0 +1,12 @@
+[2022-05-27 10:37:47.883] [exthost] [info] Extension host with pid 162976 started
+[2022-05-27 10:37:47.883] [exthost] [info] Skipping acquiring lock for /home/asito/.config/Code - OSS/User/workspaceStorage/4926f9b18516c94223226c3bcb717a2e.
+[2022-05-27 10:37:48.130] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-27 10:37:48.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-27 10:37:48.142] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-27 10:37:48.170] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-27 10:37:48.256] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-27 10:37:48.357] [exthost] [info] Eager extensions activated
+[2022-05-27 10:37:48.375] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-27 10:37:48.759] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-27 11:20:52.664] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-05-27 11:20:52.669] [exthost] [info] Extension host with pid 162976 exiting with code 0

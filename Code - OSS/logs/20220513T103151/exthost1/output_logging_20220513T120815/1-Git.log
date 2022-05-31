@@ -1,0 +1,22 @@
+[2022-05-13T10:08:15.660Z] Validating found git in: git
+[2022-05-13T10:08:15.673Z] Using git 2.36.1 from git
+[2022-05-13T10:08:15.683Z] > git rev-parse --show-toplevel [3ms]
+[2022-05-13T10:08:15.688Z] > git rev-parse --git-dir --git-common-dir [0ms]
+[2022-05-13T10:08:15.690Z] Open repository: /home/asito
+[2022-05-13T10:08:16.036Z] > git show --textconv :coding/C/C-projects/LAB8/test_corso.c [9ms]
+[2022-05-13T10:08:16.036Z] > git show --textconv :coding/C/C-projects/LAB8/corso.h [7ms]
+[2022-05-13T10:08:16.036Z] > git ls-files --stage -- /home/asito/coding/C/C-projects/LAB8/test_corso.c [4ms]
+[2022-05-13T10:08:16.037Z] > git ls-files --stage -- /home/asito/coding/C/C-projects/LAB8/corso.h [2ms]
+[2022-05-13T10:08:16.144Z] > git status -z -uall [450ms]
+[2022-05-13T10:08:16.327Z] > git check-ignore -v -z --stdin [1ms]
+[2022-05-13T10:08:18.362Z] > git check-ignore -v -z --stdin [0ms]
+[2022-05-13T10:08:22.127Z] > git show --textconv :coding/C/C-projects/LAB8/corso.c [3ms]
+[2022-05-13T10:08:22.127Z] > git ls-files --stage -- /home/asito/coding/C/C-projects/LAB8/corso.c [1ms]
+[2022-05-13T10:08:28.977Z] > git show --textconv :coding/C/C-projects/LAB8/test_corso.c [3ms]
+[2022-05-13T10:08:28.978Z] > git ls-files --stage -- /home/asito/coding/C/C-projects/LAB8/test_corso.c [1ms]
+[2022-05-13T10:08:32.673Z] > git show --textconv :coding/C/C-projects/LAB8/corso.c [2ms]
+[2022-05-13T10:08:32.674Z] > git ls-files --stage -- /home/asito/coding/C/C-projects/LAB8/corso.c [1ms]
+[2022-05-13T10:09:02.294Z] > git show --textconv :coding/C/C-projects/LAB8/test_corso.c [3ms]
+[2022-05-13T10:09:02.294Z] > git ls-files --stage -- /home/asito/coding/C/C-projects/LAB8/test_corso.c [1ms]
+[2022-05-13T10:09:48.060Z] > git show --textconv :coding/C/C-projects/LAB8/corso.c [2ms]
+[2022-05-13T10:09:48.060Z] > git ls-files --stage -- /home/asito/coding/C/C-projects/LAB8/corso.c [0ms]
