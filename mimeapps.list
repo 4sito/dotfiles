@@ -19,6 +19,7 @@ image/jpeg=imv.desktop;imv-folder.desktop;
 text/x-log=org.gnome.gitlab.somas.Apostrophe.desktop;
 video/x-matroska=vlc.desktop;mpv.desktop;blender.desktop;
 application/json=vscodium.desktop;org.gnome.gitlab.somas.Apostrophe.desktop;
+text/plain=code-oss.desktop;
 
 [Default Applications]
 x-scheme-handler/discord-455712169795780630=discord-455712169795780630.desktop

@@ -80,7 +80,7 @@ exec_always thunar --daemon
 # setting variables
 
 # Rocket League game binary
-set $rocket export WINEFSYNC=1 && legendary launch Sugar --wine ~/.config/heroic/tools/wine/lutris-ge/bin/wine --wine-prefix ~/Games/Heroic/Prefixes/Rocket-League®
+set $rocket export WINEFSYNC=1 && legendary launch Sugar --wine ~/.config/heroic/tools/wine/lutris-ge/bin/wine --wine-prefix ~/Games/Heroic/Prefixes/Rocket-League® -nomovie -AllowBackgroundAudio -high
 
 set $bakkes bash -c 'WINEFSYNC=1 WINEPREFIX=~/Games/Heroic/Prefixes/Rocket-League® ~/.config/heroic/tools/wine/lutris-ge/bin/wine c:/Program\ Files/BakkesMod/BakkesMod.exe'
 
@@ -175,7 +175,7 @@ bindsym $mod2+$mod+3 exec flameshot full -p $screen_p
 bindsym $mod2+$mod+4 exec flameshot gui -p $screen_p
 
 # launch rocket league
-bindsym $mod2+g exec $rocket 
+bindsym $mod2+g exec $rocket; exec bakkes
 bindsym $mod2+b exec $bakkes
 
 bindsym $mod2+h exec $rocket; exec $bakkes ; exec obs
