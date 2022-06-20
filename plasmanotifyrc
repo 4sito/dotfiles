@@ -1,0 +1,11 @@
+[Applications][discord]
+Seen=true
+
+[Applications][firefox]
+Seen=true
+
+[Applications][org.remmina.Remmina]
+Seen=true
+
+[DoNotDisturb]
+NotificationSoundsMuted=true
