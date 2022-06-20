@@ -1,0 +1,53 @@
+{
+		"icons": ["awesome-fonts"],
+    
+       "colors": [ 
+           {
+           "background": "#030808",
+           "foreground": "#c0c1c1", 
+           "cursor": "#c0c1c1", 
+           "color0": "#030808", 
+           "color1": "#172d30", 
+           "color2": "#233732", 
+           "color3": "#3e5533", 
+           "color4": "#4a662c", 
+           "color5": "#516a35", 
+           "color6": "#4b6536", 
+           "color7": "#818383", 
+           "color8": "#424545", 
+           "color9": "#1F3C41", 
+           "color10": "#2F4A43", 
+           "color11": "#537245", 
+           "color12": "#63883B", 
+           "color13": "#6D8E47", 
+           "color14": "#658748", 
+           "color15": "#c0c1c1" } 
+       ],
+
+	  "defaults": {
+        "warning": {
+            "fg": "#002b36",
+            "bg": "#b58900"
+        },
+        "critical": {
+            "fg": "#002b36",
+            "bg": "#dc322f"
+        }
+		},
+
+    "default-separators": true,
+    "separator-block-width": 0,
+    
+    "cycle": [
+        {
+    "fg": "color0",
+    "bg": "color3"
+        },
+        {
+    "fg": "color3",
+    "bg": "color0"
+        }
+    ]
+
+}
+
